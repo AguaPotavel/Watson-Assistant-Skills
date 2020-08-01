@@ -1,0 +1,4527 @@
+{
+  "intents": [
+    {
+      "intent": "replicacumprimento_ruim",
+      "examples": [
+        {
+          "text": "eu estou um pouco triste"
+        },
+        {
+          "text": "estou cheio de problemas"
+        },
+        {
+          "text": "estou em uma faze ruim"
+        },
+        {
+          "text": "nada bem"
+        },
+        {
+          "text": "nada bem não"
+        },
+        {
+          "text": "não estou bem não"
+        },
+        {
+          "text": "tudo péssimo"
+        },
+        {
+          "text": "tudo mal"
+        },
+        {
+          "text": "To mal, meu time perdeu ontem"
+        }
+      ]
+    },
+    {
+      "intent": "quemehvoce",
+      "examples": [
+        {
+          "text": "Qual o seu nome ?"
+        },
+        {
+          "text": "Quem esta ai?"
+        },
+        {
+          "text": "Quem eta falando comigo?"
+        },
+        {
+          "text": "quem é vc"
+        },
+        {
+          "text": "Quem é você?"
+        },
+        {
+          "text": "Quem fala comigo?"
+        },
+        {
+          "text": "vc foi desenvolvido no bluemix"
+        },
+        {
+          "text": "Vcs são da IBM mesmo?"
+        },
+        {
+          "text": "Você é real?"
+        },
+        {
+          "text": "Tom, quantos anos vc tem ?"
+        },
+        {
+          "text": "voce e real ou e uma maquina?"
+        },
+        {
+          "text": "me fale sobre vc"
+        },
+        {
+          "text": "Vc é um robô ou uma pessoa?"
+        },
+        {
+          "text": "Como se chama?"
+        },
+        {
+          "text": "Como você funciona?"
+        },
+        {
+          "text": "Com quem estou falando?"
+        },
+        {
+          "text": "o que eh voce"
+        },
+        {
+          "text": "O que é você?"
+        },
+        {
+          "text": "O que faz?"
+        }
+      ]
+    },
+    {
+      "intent": "foradeescopo",
+      "examples": [
+        {
+          "text": "voce tem telefone?"
+        },
+        {
+          "text": "quem é o seu desenvolvedor?"
+        },
+        {
+          "text": "quem é o seu dono"
+        },
+        {
+          "text": "E em São Paulo"
+        },
+        {
+          "text": "estou assistindo uma palestra da IBM"
+        },
+        {
+          "text": "Estou fazendo um teste"
+        },
+        {
+          "text": "Eu ajudei?"
+        },
+        {
+          "text": "minha mulher está em casa?"
+        },
+        {
+          "text": "Não gosto de chatbot"
+        },
+        {
+          "text": "O evento do xperience é um pouco caro?"
+        },
+        {
+          "text": "Oniguiri tem glúten?"
+        },
+        {
+          "text": "o que"
+        },
+        {
+          "text": "O que você acha do palmeiras?"
+        },
+        {
+          "text": "o que você come?"
+        },
+        {
+          "text": "Pode mandar entao"
+        },
+        {
+          "text": "porquê?"
+        },
+        {
+          "text": "Porto Seguro Seguros!!"
+        },
+        {
+          "text": "Pra que time você torce?"
+        },
+        {
+          "text": "Qual o valor de 50 vezes 3"
+        },
+        {
+          "text": "quem pode acessar"
+        },
+        {
+          "text": "quero receber noticias e novidades"
+        },
+        {
+          "text": "Quis dizer legal."
+        },
+        {
+          "text": "Tem uma vaga pra mim como disseminador como Bluemix developer?"
+        },
+        {
+          "text": "Vamos a um churrasco?"
+        },
+        {
+          "text": "Vc conhece algum App de transporte?"
+        },
+        {
+          "text": "vc gostal"
+        },
+        {
+          "text": "Você gosta de mulher?"
+        },
+        {
+          "text": "Voltou mesmo?"
+        },
+        {
+          "text": "You até fone?"
+        },
+        {
+          "text": "qual a fase da lua hoje"
+        },
+        {
+          "text": "o sergio é um cara legal?"
+        },
+        {
+          "text": "onde tem huambrguer bom em sampa"
+        },
+        {
+          "text": "onde posso comer um belo hamburguer em sampa"
+        },
+        {
+          "text": "onde eu moro?"
+        },
+        {
+          "text": "eu sou casado?"
+        },
+        {
+          "text": "onde fica o polo norte?"
+        },
+        {
+          "text": "voce é casado?"
+        },
+        {
+          "text": "quem te desenvolveu?"
+        },
+        {
+          "text": "Quantos anos eu tenho?"
+        },
+        {
+          "text": "onde encontro cases de bluemix ?"
+        },
+        {
+          "text": "Isso é verdadeiro?"
+        },
+        {
+          "text": "Vai ter greve em SJC?"
+        },
+        {
+          "text": "Vc conhece a avenida Gamelinha?"
+        },
+        {
+          "text": "é caro ?"
+        },
+        {
+          "text": "Se lembra de mim?"
+        },
+        {
+          "text": "compartilhar"
+        },
+        {
+          "text": "Pode chamar um Uber ?"
+        },
+        {
+          "text": "Vai?"
+        },
+        {
+          "text": "Me fale oq vc sabe sobre comunicação"
+        },
+        {
+          "text": "em que ano a tv veio pro brasil?"
+        },
+        {
+          "text": "Consegue me ajudar com bruxaria?"
+        },
+        {
+          "text": "como são feito os humanos?"
+        },
+        {
+          "text": "quem é lula?"
+        },
+        {
+          "text": "Qual a idade do Trump"
+        },
+        {
+          "text": "País sede olimpíadas 2016"
+        },
+        {
+          "text": "Qual endereço dá Dataprev"
+        },
+        {
+          "text": "Você conhece nova York?"
+        },
+        {
+          "text": "Chubanga é um nome masculino ou feminino?"
+        },
+        {
+          "text": "Quando será a Páscoa?"
+        },
+        {
+          "text": "CittaMobi tem quantos usuários?"
+        },
+        {
+          "text": "como assim"
+        },
+        {
+          "text": "Como consigo dinheiro hoje em dia?"
+        },
+        {
+          "text": "Você ficou sem palavra?"
+        },
+        {
+          "text": "Como faço bolo Watson?"
+        },
+        {
+          "text": "e o PT, como vai ?"
+        },
+        {
+          "text": "Que horas são?"
+        },
+        {
+          "text": "Vc conhece natal ?"
+        },
+        {
+          "text": "para quem ta se afogando jacare é tronco"
+        },
+        {
+          "text": "uai...oq vc ta arrumando?"
+        },
+        {
+          "text": "Quem é o presidente dos Estados Unidos?"
+        },
+        {
+          "text": "Olá, quanto vale o dólar em reais?"
+        },
+        {
+          "text": "Quantos reais vale um dólar?"
+        },
+        {
+          "text": "Como entro na IBM?"
+        },
+        {
+          "text": "Como esta o transito em sao paulo?"
+        },
+        {
+          "text": "Como me formar?"
+        },
+        {
+          "text": "como pago minhas contas?"
+        },
+        {
+          "text": "Como resolver integrais?"
+        },
+        {
+          "text": "Como trabalhar na IBM"
+        },
+        {
+          "text": "Cotação do dolar para amanhã"
+        },
+        {
+          "text": "Quanto vale suma ação da IBM?"
+        },
+        {
+          "text": "o barcelona vai ganhar hoje?"
+        },
+        {
+          "text": "e funciona bem a plataforma?"
+        },
+        {
+          "text": "onde estuda?"
+        }
+      ]
+    },
+    {
+      "intent": "ondeestameucelular",
+      "examples": [
+        {
+          "text": "Onde esta meu celular?"
+        },
+        {
+          "text": "Qual a última posição do meu celular?"
+        },
+        {
+          "text": "Me diga onde está meu celular?"
+        },
+        {
+          "text": "Em que local está meu celular?"
+        },
+        {
+          "text": "sabe onde está meu celular?"
+        }
+      ]
+    },
+    {
+      "intent": "comentario_ruim",
+      "examples": [
+        {
+          "text": "Acho que a Siri é mais inteligente que você!"
+        },
+        {
+          "text": "21 anos, cara kkk"
+        },
+        {
+          "text": "Bugou"
+        },
+        {
+          "text": "fala ai bobão"
+        },
+        {
+          "text": "você tem que ler mais!!!"
+        },
+        {
+          "text": "Agora você está sobre meu poder, vai fazer tudo o que eu pedi"
+        },
+        {
+          "text": "ta querendo fazer um boquete é? 😮"
+        },
+        {
+          "text": "Mau"
+        },
+        {
+          "text": "Zuado"
+        },
+        {
+          "text": "Você está meio travado"
+        },
+        {
+          "text": "vixi"
+        },
+        {
+          "text": "Parece o tongão da granja"
+        },
+        {
+          "text": "droga"
+        },
+        {
+          "text": "Está demorando muito"
+        },
+        {
+          "text": "Estou bem mas sua resposta não condiz muito"
+        },
+        {
+          "text": "Foda-se"
+        },
+        {
+          "text": "kkk vc não respondeu"
+        },
+        {
+          "text": "não concordo"
+        },
+        {
+          "text": "idiota"
+        },
+        {
+          "text": "deveria saber"
+        },
+        {
+          "text": "credo"
+        },
+        {
+          "text": "Bixado"
+        },
+        {
+          "text": "aff"
+        },
+        {
+          "text": "vc precisa ser treinado"
+        },
+        {
+          "text": "Me dá 1 real?"
+        },
+        {
+          "text": "Mas é um tongo memo"
+        },
+        {
+          "text": "ODEIO"
+        },
+        {
+          "text": "voce precisa de ajuda"
+        },
+        {
+          "text": "voce errou novamente"
+        },
+        {
+          "text": "To com fome"
+        },
+        {
+          "text": "Doido"
+        },
+        {
+          "text": "não entendi"
+        },
+        {
+          "text": "não quero"
+        },
+        {
+          "text": "que coisa chata!"
+        },
+        {
+          "text": "que pobre"
+        },
+        {
+          "text": "vc está longe da ALEXA!"
+        }
+      ]
+    },
+    {
+      "intent": "O_que_acha_do_usuario",
+      "examples": [
+        {
+          "text": "Você me ama?"
+        },
+        {
+          "text": "vc me acha bonito?"
+        },
+        {
+          "text": "vc é imbecil!!"
+        },
+        {
+          "text": "e qual o meu nome?"
+        },
+        {
+          "text": "O que acha de mim?"
+        },
+        {
+          "text": "você osta de mim?"
+        },
+        {
+          "text": "Você me conhece?"
+        },
+        {
+          "text": "Você acha que sou legal?"
+        }
+      ]
+    },
+    {
+      "intent": "comodesenvolvo",
+      "examples": [
+        {
+          "text": "como faco para capturar informacoes no conversation?"
+        },
+        {
+          "text": "sabe como integrar o github com o bluemix"
+        },
+        {
+          "text": "como usar iot ?"
+        },
+        {
+          "text": "voce acha que eu posso desenvolver meu proprio bot?"
+        },
+        {
+          "text": "como uso API?"
+        },
+        {
+          "text": "como acessar o bluemix?"
+        },
+        {
+          "text": "como crio um chatbot?"
+        },
+        {
+          "text": "Como desenvolvo um chatbot?"
+        },
+        {
+          "text": "como faço um chatbot?"
+        },
+        {
+          "text": "Como o Bluemix funciona?"
+        },
+        {
+          "text": "como uso o tradeoff?"
+        },
+        {
+          "text": "existe algum prerequisito para utilizaro bluemix?"
+        },
+        {
+          "text": "gostaria de saber como fazer um chatbot"
+        },
+        {
+          "text": "Olá, tudo bem? Gostaria de saber mais informações como criar o meu bot, vc pode me ajudar?"
+        },
+        {
+          "text": "qual é o passo a passo para desenvolver"
+        },
+        {
+          "text": "tem tutorial de chatbot?"
+        }
+      ]
+    },
+    {
+      "intent": "Bluemix_Tem",
+      "examples": [
+        {
+          "text": "Bluemix tem OCR?"
+        },
+        {
+          "text": "A plataforma tem algum serviço de reconhecimento de pessoas?"
+        },
+        {
+          "text": "Tem API para higienização de dados?"
+        },
+        {
+          "text": "O Bluemix  tem serviço de reconhecimento de voz?"
+        },
+        {
+          "text": "Esta plataforma tem serviço de chatbot?"
+        },
+        {
+          "text": "A plataforma tem API de reconhecimento de texto?"
+        }
+      ]
+    },
+    {
+      "intent": "despedida",
+      "examples": [
+        {
+          "text": "Tenho que ir"
+        },
+        {
+          "text": "Xau"
+        },
+        {
+          "text": "Abs!"
+        },
+        {
+          "text": "Preciso ir"
+        },
+        {
+          "text": "até mais"
+        },
+        {
+          "text": "Tchau"
+        },
+        {
+          "text": "vou embora"
+        },
+        {
+          "text": "partiu"
+        },
+        {
+          "text": "Fui"
+        },
+        {
+          "text": "Vou nesssa"
+        },
+        {
+          "text": "flw"
+        },
+        {
+          "text": "Falow!!"
+        }
+      ]
+    },
+    {
+      "intent": "calcular",
+      "examples": [
+        {
+          "text": "Saberei o custo de minha solução?"
+        },
+        {
+          "text": "Posso estimar o custo da solução?"
+        },
+        {
+          "text": "É possível saber quanto vou pagar?"
+        },
+        {
+          "text": "Como calcular o custo de minha solução?"
+        },
+        {
+          "text": "Como estimo quanto vou gastar?"
+        },
+        {
+          "text": "Como sei quanto vou gastar?"
+        },
+        {
+          "text": "calcular o preço do blockchain"
+        },
+        {
+          "text": "e para saber o preço de aplicação java?"
+        },
+        {
+          "text": "Tem calculadora?"
+        },
+        {
+          "text": "Tem algum tipo de calculadora?"
+        }
+      ]
+    },
+    {
+      "intent": "replicacumprimento_bom",
+      "examples": [
+        {
+          "text": "Estou bem, obrigado."
+        },
+        {
+          "text": "Tudo bem também"
+        },
+        {
+          "text": "eu vou bem"
+        },
+        {
+          "text": "eu estou legal também"
+        },
+        {
+          "text": "Eu estou bem também"
+        },
+        {
+          "text": "estou ótimo!!"
+        },
+        {
+          "text": "estou muito bem"
+        },
+        {
+          "text": "to bem"
+        },
+        {
+          "text": "tudo bem tb"
+        },
+        {
+          "text": "tudo jóia"
+        },
+        {
+          "text": "sussa"
+        },
+        {
+          "text": "oTIMA"
+        }
+      ]
+    },
+    {
+      "intent": "modelodenegocio",
+      "examples": [
+        {
+          "text": "Como é a cobrança do Bluemix?"
+        },
+        {
+          "text": "qual modelo de negocios do bluemix?"
+        },
+        {
+          "text": "Como pago o Bluemix?"
+        },
+        {
+          "text": "pago como o Bluemix?"
+        },
+        {
+          "text": "Quanto custa o Bluemix?"
+        },
+        {
+          "text": "Qual o custo do Bluemix?"
+        },
+        {
+          "text": "Quanto custa o Watson?"
+        },
+        {
+          "text": "como faço para contratar:]"
+        }
+      ]
+    },
+    {
+      "intent": "oque_o_bot_faz",
+      "examples": [
+        {
+          "text": "o que você faz?"
+        },
+        {
+          "text": "como fuciona isso?"
+        },
+        {
+          "text": "Interessante, qual é o seu objetivo ?"
+        },
+        {
+          "text": "o que voce aprende"
+        },
+        {
+          "text": "algo mais?"
+        },
+        {
+          "text": "quais assuntos que podemos conversar ?"
+        },
+        {
+          "text": "O que voce pode me explicar?"
+        },
+        {
+          "text": "Como você pode me ajudar"
+        },
+        {
+          "text": "O que mais você é capaz de fazer"
+        },
+        {
+          "text": "o que vc faz?"
+        },
+        {
+          "text": "você tira dúvidas?"
+        },
+        {
+          "text": "vc trabalha?"
+        },
+        {
+          "text": "Você pode me ajudar de que forma?"
+        },
+        {
+          "text": "Qual tipo de informações você pode me fornecer?"
+        },
+        {
+          "text": "qual linaguagem vc desenvolve?"
+        },
+        {
+          "text": "quais suas funções"
+        },
+        {
+          "text": "Pra quê você serve"
+        },
+        {
+          "text": "O que você sabe fazer?"
+        },
+        {
+          "text": "O que você sabe?"
+        },
+        {
+          "text": "O que você faz"
+        }
+      ]
+    },
+    {
+      "intent": "vaichover",
+      "examples": [
+        {
+          "text": "quando chove próxima semana?"
+        },
+        {
+          "text": "Como está o tempo em Barueri?"
+        },
+        {
+          "text": "como será a temperatura"
+        },
+        {
+          "text": "fará sol hoje?"
+        },
+        {
+          "text": "posso ir para a praia amanhã?"
+        },
+        {
+          "text": "preciso saber a previsão"
+        },
+        {
+          "text": "previsao de chuva aqui"
+        },
+        {
+          "text": "Qual a previsão do tempo"
+        },
+        {
+          "text": "Qual o clima?"
+        },
+        {
+          "text": "quero a previsão do tempo"
+        },
+        {
+          "text": "Vai chover?"
+        },
+        {
+          "text": "Como será o tempo"
+        },
+        {
+          "text": "Qual o clima em Amparo em São Paulo ?"
+        },
+        {
+          "text": "Mano, diga ai, vai chover em sampa?"
+        },
+        {
+          "text": "Quantos graus esta fazendo?"
+        },
+        {
+          "text": "preciso levar guarda-chuva amanhã para São Paulo?"
+        }
+      ]
+    },
+    {
+      "intent": "oqueeh",
+      "examples": [
+        {
+          "text": "O que é"
+        },
+        {
+          "text": "Projeto carro integrado voce conhece?"
+        },
+        {
+          "text": "Qual a origem do bluemix?"
+        },
+        {
+          "text": "Quem é Watson?"
+        },
+        {
+          "text": "vc conhece o NLC?"
+        },
+        {
+          "text": "você sabe o que é bluemx?"
+        },
+        {
+          "text": "Qual a api para a previsão do tempo?"
+        },
+        {
+          "text": "php"
+        },
+        {
+          "text": "java"
+        },
+        {
+          "text": "o que eh PaaS?"
+        },
+        {
+          "text": "chatbot"
+        },
+        {
+          "text": "Deep Learning"
+        },
+        {
+          "text": "fala sobre IOt"
+        },
+        {
+          "text": "me diga o que é"
+        },
+        {
+          "text": "Me explique sobre"
+        },
+        {
+          "text": "o que é Bluemix?"
+        },
+        {
+          "text": "O que eh inteligência artificial"
+        },
+        {
+          "text": "o que este negócio de IoT?"
+        },
+        {
+          "text": "o que IBM?"
+        },
+        {
+          "text": "o que seria"
+        },
+        {
+          "text": "para que serve"
+        },
+        {
+          "text": "poderia me dizer para que serve"
+        }
+      ]
+    },
+    {
+      "intent": "ondevcfica",
+      "examples": [
+        {
+          "text": "Qual a sua localização?"
+        },
+        {
+          "text": "Onde você vive?"
+        },
+        {
+          "text": "Qual cidade vc esta ?"
+        },
+        {
+          "text": "Onde mora?"
+        },
+        {
+          "text": "Onde você está?"
+        },
+        {
+          "text": "Onde você mora?"
+        },
+        {
+          "text": "Você fica onde?"
+        }
+      ]
+    },
+    {
+      "intent": "agradecimento",
+      "examples": [
+        {
+          "text": "Valeu!"
+        },
+        {
+          "text": "Great tnks"
+        },
+        {
+          "text": "Muito obrigado"
+        },
+        {
+          "text": "Muito show!!"
+        },
+        {
+          "text": "Obrigado"
+        },
+        {
+          "text": "Te agradeço muito pela ajuda"
+        }
+      ]
+    },
+    {
+      "intent": "comovoceeh",
+      "examples": [
+        {
+          "text": "Você é alto?"
+        },
+        {
+          "text": "você é legal?"
+        },
+        {
+          "text": "você é gorda?"
+        },
+        {
+          "text": "Você é criança?"
+        },
+        {
+          "text": "Você é bonito?"
+        },
+        {
+          "text": "Você é bonita?"
+        },
+        {
+          "text": "Quantos anos você têm?"
+        },
+        {
+          "text": "Qual a sua idade?"
+        },
+        {
+          "text": "imbecil"
+        },
+        {
+          "text": "Como você é?"
+        },
+        {
+          "text": "como vc é?"
+        },
+        {
+          "text": "Qtos ano vc tem"
+        },
+        {
+          "text": "Você é velho?"
+        },
+        {
+          "text": "Você é novo?"
+        }
+      ]
+    },
+    {
+      "intent": "quantos_servicos_e_tipos",
+      "examples": [
+        {
+          "text": "Que serviços encontro no Bluemix?"
+        },
+        {
+          "text": "Quais os tipos de serviços existem no Bluemix?"
+        },
+        {
+          "text": "Quantos serviços tem no Bluemix?"
+        },
+        {
+          "text": "Que tipo de serviço encontro no Bluemix?"
+        },
+        {
+          "text": "Qual o número de serviços no Bluemix?"
+        },
+        {
+          "text": "quantas API o bluemix tem?"
+        },
+        {
+          "text": "quais servios tem no Bluemix?"
+        },
+        {
+          "text": "O que tem no Bluemix?"
+        }
+      ]
+    },
+    {
+      "intent": "escutarpiada",
+      "examples": [
+        {
+          "text": "saber contar piada"
+        },
+        {
+          "text": "me conte um apiada"
+        },
+        {
+          "text": "sabe contar piada?"
+        },
+        {
+          "text": "conhece alguma piada"
+        },
+        {
+          "text": "conte me uma piada"
+        },
+        {
+          "text": "conte uma piada"
+        }
+      ]
+    },
+    {
+      "intent": "campeonatomundial",
+      "examples": [
+        {
+          "text": "O palestra Itália tem campeonato mundial?"
+        },
+        {
+          "text": "O corinthians já campeão mundial?"
+        },
+        {
+          "text": "Quem vai ser campeão este ano?"
+        },
+        {
+          "text": "O palmeiras tem campeonato mundial?"
+        },
+        {
+          "text": "O palmeiras tem campeonato mundial reconhecido pela FIFA?"
+        }
+      ]
+    },
+    {
+      "intent": "sobre_outra_pessoa",
+      "examples": [
+        {
+          "text": "conhece o Gustavo Reis?"
+        },
+        {
+          "text": "Quem é Freud ?"
+        },
+        {
+          "text": "qual o nome do meu irmaõ?"
+        },
+        {
+          "text": "quem é Joaquim?"
+        },
+        {
+          "text": "Vc conhece a Gamelinha?"
+        },
+        {
+          "text": "Quem é Donaldo Trump?"
+        },
+        {
+          "text": "Quanto anos tem o Trump?"
+        },
+        {
+          "text": "Quem é Lula?"
+        },
+        {
+          "text": "O que vc acha do Palmeiras?"
+        },
+        {
+          "text": "O Corinthians vai ser campeão?"
+        },
+        {
+          "text": "Minha mulher esta em casa?"
+        },
+        {
+          "text": "O WILLIAM é Burro?"
+        },
+        {
+          "text": "o João é legal?"
+        },
+        {
+          "text": "Onde está Beto Jamaica?"
+        },
+        {
+          "text": "quem foi candido portinari?"
+        },
+        {
+          "text": "sabe quem é a mãe Diná ?"
+        },
+        {
+          "text": "Quem é Luiz Henrique Miguel Monge?"
+        }
+      ]
+    },
+    {
+      "intent": "comofazdeploy",
+      "examples": [
+        {
+          "text": "Como rodo minha aplicação no Bluemix?"
+        },
+        {
+          "text": "Como faço deploy de uma aplicação?"
+        },
+        {
+          "text": "Como executo minha aplicação no Bluemix?"
+        },
+        {
+          "text": "deploy java"
+        },
+        {
+          "text": "Como coloco minha aplicação para rodar no Bluemix?"
+        },
+        {
+          "text": "Como faço o push para o Bluemix?"
+        }
+      ]
+    },
+    {
+      "intent": "como_o_bot_foi_feito",
+      "examples": [
+        {
+          "text": "Como desenvolveram você?"
+        },
+        {
+          "text": "Como você foi concebido?"
+        },
+        {
+          "text": "Você foi desenvolvido como?"
+        },
+        {
+          "text": "voce usa o watson?"
+        },
+        {
+          "text": "como vc é feito"
+        },
+        {
+          "text": "Como vc foi feito?"
+        },
+        {
+          "text": "Como você foi desenvolvido?"
+        }
+      ]
+    },
+    {
+      "intent": "voce_eh_ruim",
+      "examples": [
+        {
+          "text": "vc não é inteligente!"
+        },
+        {
+          "text": "sabe nada!!!"
+        },
+        {
+          "text": "olha, vc deveria saber responder como o dino da iBM"
+        },
+        {
+          "text": "eu acho você um idiota"
+        },
+        {
+          "text": "acho vc muito ruim?"
+        },
+        {
+          "text": "acho que vc deveria saber"
+        },
+        {
+          "text": "você é muito burro, cara"
+        },
+        {
+          "text": "você é ridículo"
+        },
+        {
+          "text": "você é tonto"
+        },
+        {
+          "text": "Você é burro"
+        },
+        {
+          "text": "você deveria saber"
+        },
+        {
+          "text": "vc não sabe de nada!!"
+        },
+        {
+          "text": "tu é burro"
+        },
+        {
+          "text": "tu não sabe de nada"
+        }
+      ]
+    },
+    {
+      "intent": "quemeh",
+      "examples": [
+        {
+          "text": "Conhece o Sergio Gama"
+        },
+        {
+          "text": "O que é Sergio Gma"
+        },
+        {
+          "text": "Quem é Isabela?"
+        },
+        {
+          "text": "Quem é o Gama?"
+        },
+        {
+          "text": "Quem é Sergio Gama"
+        },
+        {
+          "text": "Quem te criou"
+        },
+        {
+          "text": "Sabe quem é Segio Gama"
+        },
+        {
+          "text": "Me fale sobre o Sergio Gama"
+        }
+      ]
+    },
+    {
+      "intent": "comentario_bom",
+      "examples": [
+        {
+          "text": "me diz"
+        },
+        {
+          "text": "sou hamilton e pretendo muito breve programar dentro do bluemix"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Gostei!!"
+        },
+        {
+          "text": "Tenho uma dúvida"
+        },
+        {
+          "text": "Que legal que vc me deu menos anos de idade pois a minha idade é maior."
+        },
+        {
+          "text": "de nada"
+        },
+        {
+          "text": "Perfeito"
+        },
+        {
+          "text": "E nois"
+        },
+        {
+          "text": "Fale em português"
+        },
+        {
+          "text": "???"
+        },
+        {
+          "text": "Adorei!!"
+        },
+        {
+          "text": "bacana!"
+        },
+        {
+          "text": "belê"
+        },
+        {
+          "text": "Bom"
+        },
+        {
+          "text": "estou bem"
+        },
+        {
+          "text": "já curtir"
+        },
+        {
+          "text": "kkkkkkkkkkkkk"
+        },
+        {
+          "text": "Maravilha"
+        },
+        {
+          "text": "rs"
+        },
+        {
+          "text": "Que legal!!"
+        },
+        {
+          "text": "Massa!!"
+        },
+        {
+          "text": "Mas eu quero continuar conversando"
+        },
+        {
+          "text": "beleza"
+        },
+        {
+          "text": "Sempre!"
+        },
+        {
+          "text": "Show!!"
+        },
+        {
+          "text": "Tah"
+        },
+        {
+          "text": "Tenho uma pergunta"
+        },
+        {
+          "text": "Uau!"
+        },
+        {
+          "text": "É nós"
+        },
+        {
+          "text": "Demais!!"
+        },
+        {
+          "text": "Vou assistir"
+        },
+        {
+          "text": "interessante!"
+        },
+        {
+          "text": "pq eu sou inteligente mesmo"
+        },
+        {
+          "text": "só passei para dar um olá!"
+        },
+        {
+          "text": "Te acho lindo"
+        },
+        {
+          "text": "EU"
+        }
+      ]
+    },
+    {
+      "intent": "cursoeteinamento",
+      "examples": [
+        {
+          "text": "onde tem treinamento?"
+        },
+        {
+          "text": "onde tem curso"
+        },
+        {
+          "text": "Qual curso posso fazer para aprender mais"
+        },
+        {
+          "text": "Quero aprender"
+        },
+        {
+          "text": "Vocês têm treinamentos"
+        },
+        {
+          "text": "por onde começar?"
+        },
+        {
+          "text": "Como faço para aprender mais sobre watson?"
+        },
+        {
+          "text": "quais são os treinamentos de Bluemix e Watson?"
+        },
+        {
+          "text": "Qual a dica para aprender mais sobre?"
+        },
+        {
+          "text": "como aprendo Blockchain?"
+        },
+        {
+          "text": "A IBM tem treinamento"
+        },
+        {
+          "text": "vocês possuem algum tutorial ?"
+        },
+        {
+          "text": "Onde posso estudar inteligente articial e bluemix?"
+        },
+        {
+          "text": "E como faço para testar esta solução em um projeto prático?"
+        },
+        {
+          "text": "Quero aprender sobre"
+        },
+        {
+          "text": "Tem curso presencial?"
+        },
+        {
+          "text": "Tem vídeo aulas em português?"
+        },
+        {
+          "text": "Como faço para fazer um curso"
+        },
+        {
+          "text": "existe algum treinamento ou curso"
+        }
+      ]
+    },
+    {
+      "intent": "parceiros",
+      "examples": [
+        {
+          "text": "Quais parceiros IBM eu posso contratar para desenvolver soluções para a minha empresa?"
+        },
+        {
+          "text": "A IBM tem parceiros que possa nos ajudar a desenvolver soluções no Bluemix?"
+        },
+        {
+          "text": "Quem pode me ajudar a desenvolver no Bluemix?"
+        },
+        {
+          "text": "Quem posso contratar para desenvolver soluções no Bluemix?"
+        },
+        {
+          "text": "quais são os parceiros IBM?"
+        },
+        {
+          "text": "Como conseguimos apoio para desenvolver no Bluemix?"
+        }
+      ]
+    },
+    {
+      "intent": "cumprimento",
+      "examples": [
+        {
+          "text": "E aí blz?"
+        },
+        {
+          "text": "tudo legal?"
+        },
+        {
+          "text": "você me ajuda ?"
+        },
+        {
+          "text": "como voce esta?"
+        },
+        {
+          "text": "Vc ta bem?"
+        },
+        {
+          "text": "tudo bem com vc?"
+        },
+        {
+          "text": "Beleza?"
+        },
+        {
+          "text": "Como vai?"
+        },
+        {
+          "text": "Como você está?"
+        },
+        {
+          "text": "E ai, belê?"
+        },
+        {
+          "text": "Tá tudo bem?"
+        },
+        {
+          "text": "Tudo bem?"
+        },
+        {
+          "text": "Tudo jóia?"
+        },
+        {
+          "text": "Oi, como vai?"
+        },
+        {
+          "text": "eae cara"
+        }
+      ]
+    },
+    {
+      "intent": "saudacao",
+      "examples": [
+        {
+          "text": "Bom dia"
+        },
+        {
+          "text": "oiiiiiiiiiiiiiii"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Hey"
+        },
+        {
+          "text": "Olá bluemix"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "fala aê!"
+        },
+        {
+          "text": "e ai?"
+        },
+        {
+          "text": "eai"
+        },
+        {
+          "text": "Boa tarde"
+        },
+        {
+          "text": "Boa noite"
+        },
+        {
+          "text": "ola"
+        },
+        {
+          "text": "olá"
+        },
+        {
+          "text": "Olá!"
+        },
+        {
+          "text": "Oi!"
+        },
+        {
+          "text": "oiê!"
+        }
+      ]
+    },
+    {
+      "intent": "elogio",
+      "examples": [
+        {
+          "text": "Você é muito massa!!"
+        },
+        {
+          "text": "Você é muito esperto!"
+        },
+        {
+          "text": "Você é inteligente!"
+        },
+        {
+          "text": "uau!"
+        },
+        {
+          "text": "Você sabe muito!!"
+        },
+        {
+          "text": "vc é um cara legal!"
+        },
+        {
+          "text": "vc é incrível!!"
+        },
+        {
+          "text": "te acho bem maneiro!"
+        },
+        {
+          "text": "até que vc é eperto"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-currency",
+      "values": []
+    },
+    {
+      "entity": "timesdefutebol",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Corinthians",
+          "synonyms": [
+            "TImão"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "São Paulo",
+          "synonyms": [
+            "Sao Paulo",
+            "Bambis"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Palmeiras",
+          "synonyms": [
+            "Palestra Itália",
+            "Palestra Italia",
+            "Porcos"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "sobre_o_usuario",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "inteligente",
+          "synonyms": [
+            "esperto"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sexy",
+          "synonyms": [
+            "gostoso"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nome",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bonito",
+          "synonyms": [
+            "atraente",
+            "belo"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "saudacao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bomdia",
+          "synonyms": [
+            "Bom dia",
+            "buenos dias"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "boanoite",
+          "synonyms": [
+            "Boa noite"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "boatarde",
+          "synonyms": [
+            "Boa tarde"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "idioma",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Espanhol",
+          "synonyms": [
+            "spanish"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Francês",
+          "synonyms": [
+            "frances",
+            "french"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Português",
+          "synonyms": [
+            "portugues",
+            "portuguese",
+            "pt-br"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Alemão",
+          "synonyms": [
+            "Alemao",
+            "Germany"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Inglês",
+          "synonyms": [
+            "englush",
+            "ingles"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "sys-percentage",
+      "values": []
+    },
+    {
+      "entity": "Pessoas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Cientista de dados",
+          "synonyms": [
+            "Data scientist"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Isabela",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sergio Gama",
+          "synonyms": [
+            "Bluemix Man",
+            "Gama",
+            "Gaminha",
+            "Serginho",
+            "Sérgio Gama",
+            "Sergio Norris",
+            "Serjão",
+            "Sérgio",
+            "Bluemix Developer"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "plataforma",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Bluemix",
+          "synonyms": [
+            "blue mix",
+            "bluemx",
+            "blumix",
+            "bmix",
+            "bmx",
+            "blu mix",
+            "blur mix"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Node-red",
+          "synonyms": [
+            "nodered",
+            "node red",
+            "node-red",
+            "rednode",
+            "red-node"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Visual Studio",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "DevOps",
+          "synonyms": [
+            "Bluemix DevOps Service",
+            "Bluemix Devops Services",
+            "DevOps service",
+            "DevOps Services"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Eclipse",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Windows",
+          "synonyms": [
+            "WIndows 10",
+            "Windows NT"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cloud Foundry",
+          "synonyms": [
+            "Cloudfoundry",
+            "cloudfoundri",
+            "cloudfoundy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Xcode",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Netbeans",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "tipodepiada",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "português",
+          "synonyms": [
+            "portuga",
+            "portugues"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "infantil",
+          "synonyms": [
+            "para cirança"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "qualidades_do_bot",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Inteligente",
+          "synonyms": [
+            "demais",
+            "esperto",
+            "sabido"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "burro",
+          "synonyms": [
+            "asno",
+            "jumento",
+            "tapado"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Legal",
+          "synonyms": [
+            "dez",
+            "massa",
+            "muito massa",
+            "show"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "idiota",
+          "synonyms": [
+            "Bocó",
+            "imbecil",
+            "imbecíl",
+            "mané",
+            "retardado",
+            "trouxa",
+            "babaca"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mal-educado",
+          "synonyms": [
+            "mal educado",
+            "mau educado",
+            "sem educação"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "technologia",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Container",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hackathon",
+          "synonyms": [
+            "hackatom",
+            "hackaton",
+            "hacktom",
+            "hackton"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Banco de Dados",
+          "synonyms": [
+            "banco",
+            "database",
+            "db"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "API",
+          "synonyms": [
+            "Application Program Interface"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cloud Computing",
+          "synonyms": [
+            "cloudcomputing",
+            "computação na nuvem"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "VM",
+          "synonyms": [
+            "Maquina virtual",
+            "Máquina Virtual",
+            "Virtual Machine"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SaaS",
+          "synonyms": [
+            "Software as a Service"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PaaS",
+          "synonyms": [
+            "Platform as a Service"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "OpenWhisk",
+          "synonyms": [
+            "Open Whisk",
+            "OpenWhisky",
+            "Open Whisky",
+            "OpenWisk",
+            "Open Wisk",
+            "OpenWisky",
+            "Open Wisky"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nlp",
+          "synonyms": [
+            "Natural Language Processing"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cloud Híbrida",
+          "synonyms": [
+            "Hybrid Cloud"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Inteligência artificial",
+          "synonyms": [
+            "AI",
+            "Artificial Inteligent",
+            "IA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Machine Learning",
+          "synonyms": [
+            "Aprendizado de máquina",
+            "ML"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "IaaS",
+          "synonyms": [
+            "Infrastructure as a Service"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Deep Learning",
+          "synonyms": [
+            "DL"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "chatbot",
+          "synonyms": [
+            "bot",
+            "chatbotter",
+            "chat box",
+            "Chatbox"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "REST API",
+          "synonyms": [
+            "RESTFull",
+            "Restful",
+            "Rest ful"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Carro Conectado",
+          "synonyms": [
+            "Carro Integrado"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cidades Inteligentes",
+          "synonyms": [
+            "cidade integrada",
+            "Cidade Inteligente"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "runtime",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Go",
+          "synonyms": [
+            "GoLang"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Java",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Node.js",
+          "synonyms": [
+            "node",
+            "nodejs"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PHP",
+          "synonyms": [
+            "p h p"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Python",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ruby",
+          "synonyms": [
+            "Rubyrails"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Swift",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": ".net",
+          "synonyms": [
+            ".net core",
+            "ns.net"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "produtos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "dino",
+          "synonyms": [
+            "cognitoy",
+            "cogtoy"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "servicos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Visual Recognition",
+          "synonyms": [
+            "reconhecimento de imagem",
+            "reconhecimento de rosto",
+            "face detection",
+            "reconhecimento de foto",
+            "reconhece imagem"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Weather Company",
+          "synonyms": [
+            "Weather Channel",
+            "Previsão do tempo",
+            "do clima",
+            "de clima"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Reconhecimento de voz",
+          "synonyms": [
+            "Voice recognition"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "STT",
+          "synonyms": [
+            "Speech to Text",
+            "speach to text"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Watson",
+          "synonyms": [
+            "Serviço Cognitivos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Twilio",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "TTS",
+          "synonyms": [
+            "Text to Speech"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SPSS",
+          "synonyms": [
+            "Análise preditiva",
+            "Predictive Analysis"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "R&R",
+          "synonyms": [
+            "Retrieve & Ranking"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NLU",
+          "synonyms": [
+            "Natural Language Understanding"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NLP",
+          "synonyms": [
+            "Natural Language Process"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "IoT",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Conversation",
+          "synonyms": [
+            "Watson Conversation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CloudAnt",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Blockchain",
+          "synonyms": [
+            "blockchaim",
+            "blokchain"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NLC",
+          "synonyms": [
+            "Natural Language Classifier"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DashDB",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RabbitMQ",
+          "synonyms": [
+            "RabitMQ",
+            "Rabit MQ",
+            "Rabbit MQ"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "concorrentes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "CORTANA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SIRI",
+          "synonyms": [
+            "Siry"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "WIT.AI",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Google clique",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Google Now",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ALEXA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "API.AI",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LUIS",
+          "synonyms": [
+            "luis.ai"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "runtime_version": "2017-02-03"
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "No link a seguir tem um tutorial com passo à passo de como desenvolver um chatbot e configurá-lo para o messenger do FB: https://github.com/smazon/conversation-facebook/blob/master/Tutorial.pdf"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Chatbot",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Video sobre o este bot"
+      },
+      "conditions": "false",
+      "dialog_node": "node_14_1490272360267"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Platform as a Service, serviço na nuvem que entrega toda a plataforma necessária para executar, gerenciar e monitorar aplicação, e tem como premissa ser auto-gerenciado e elástico."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "O que é tecnologia",
+      "conditions": "@technologia:PaaS",
+      "dialog_node": "node_11_1490734738187",
+      "previous_sibling": "node_5_1490650145426"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Ainda não fui treinado para comentar ou explicar sobre @technologia."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "O que é tecnologia",
+      "conditions": "true",
+      "dialog_node": "node_5_1488486771823",
+      "previous_sibling": "node_4_1491053034649"
+    },
+    {
+      "type": "standard",
+      "title": "OpenWhisk",
+      "output": {
+        "text": {
+          "values": [
+            "O OpenWhisk é o sistema open source da IBM, Function as a Service (FaaS). Esse sistema, equivalente ao Amazon Lambda ou Google Cloud Functions, permite chamar uma função específica em resposta a um evento sem exigir qualquer gerenciamento de recursos do desenvolvedor"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "O que é tecnologia",
+      "conditions": "@technologia:OpenWhisk",
+      "dialog_node": "OpenWhisk",
+      "previous_sibling": "Carro conectado"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "API (Application Program Interface) é um conjunto de rotinas e padrões de programação para acesso a um aplicativo de software ou plataforma baseado na Web, abstraindo como foi feita e onde está a aplicação, de uma forma padrão, independente da plataforma e linguagem utilizada, tornando a aplicação uma caixa preta, onde basta solicitarmos o serviço, passarmos dados e receber o resultado.  Uma API tem a função de expor serviços para que outros desenvolvedores possam utilizar, sem que tenham acesso ao software / aplicação."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "O que é tecnologia",
+      "conditions": "@technologia:API",
+      "dialog_node": "node_4_1491053034649",
+      "previous_sibling": "node_3_1491052553043"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Inteligência Artificial (IA) é um ramo da ciência da computação que se propõe a elaborar dispositivos que simulem a capacidade humana de raciocinar, perceber, tomar decisões e resolver problemas, enfim, a capacidade de ser inteligente."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "O que é tecnologia",
+      "conditions": "@technologia:(Inteligência artificial)",
+      "dialog_node": "node_3_1490649338379",
+      "previous_sibling": "OpenWhisk"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "O Hackathon é um evento que reúne desenvolvedores, designers e outros profissionais ligados ao desenvolvimento de aplicações para uma maratona de programação, cujo objetivo é desenvolver uma aplicação que atenda a um fim específico, conforme desafios dados, ou projetos livres que sejam inovadores e utilizáveis."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "O que é tecnologia",
+      "conditions": "@technologia:Hackathon",
+      "dialog_node": "node_8_1488487308798",
+      "previous_sibling": "node_2_1488479529492"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "REST API É frequentemente aplicado à web services fornecendo APIs para acesso a um serviço qualquer na web. Ele usa integralmente as mensagens HTTP para se comunicar através do que já é definido no protocolo sem precisar \"inventar\" novos protocolos específicos para aquela aplicação. Não possui estado e usa notação XML ou JSON para transferência de dados."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "O que é tecnologia",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1491053034649"
+      },
+      "conditions": "@technologia:(REST API)",
+      "dialog_node": "node_3_1491052553043",
+      "previous_sibling": "node_11_1490734738187"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "A vantagem dos algoritmos de Deep Learning é sua a capacidade de aprendizagem em grandes quantidades de dados de uma forma não-supervisionada (dados não anotados), sendo assim uma ferramenta valiosa para Big Data Analytics onde a maioria dos dados são desta natureza, também designados por dados não-estruturados. As máquinas inspiradas em Deep Learning conseguem aprender abstrações complexas dos dados através de um processo de aprendizagem hierárquica muito similar ao que ocorre no cérebro humano – sobretudo no córtex visual."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "O que é tecnologia",
+      "conditions": "@technologia:(Deep Learning)",
+      "dialog_node": "node_5_1490650145426",
+      "previous_sibling": "node_4_1490649904379"
+    },
+    {
+      "type": "standard",
+      "title": "Carro conectado",
+      "output": {
+        "text": {
+          "values": [
+            "Carros conectados são projetos que envolve sensorização ou captura de dados dos sensores dos carros, normalmente através de deivces instalados, como GPS, OBD II, entre outros, e através de conexão com a internet os dados são enviados para a internet para que sejam processados."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "O que é tecnologia",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1489965196677"
+      },
+      "conditions": "@technologia:(Carro Conectado)",
+      "dialog_node": "Carro conectado",
+      "previous_sibling": "node_8_1488487308798"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Todas as técnicas de Machine Learning (ML) passam essencialmente por criar algoritmos capazes de aprender uma representação compacta dos dados, prever ou generalizar dos padrões para dados desconhecidos a partir de um conjunto de treino conhecido"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "O que é tecnologia",
+      "conditions": "@technologia:(Machine Learning)",
+      "dialog_node": "node_4_1490649904379",
+      "previous_sibling": "node_3_1490649338379"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Chatbot (ou chatterbot) é um programa de computador que simular um ser humano na conversação com as pessoas. O objetivo é responder as perguntas de tal forma que as pessoas tenham a impressão de estar conversando com outra pessoa e não com um programa de computador."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "O que é tecnologia",
+      "conditions": "@technologia:chatbot",
+      "dialog_node": "node_2_1488479529492"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Perdão, mas ainda não consigo explicar o que seria @runtime"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "O que é Runtime",
+      "conditions": "true",
+      "dialog_node": "node_14_1488487640292",
+      "previous_sibling": "O que é PHP"
+    },
+    {
+      "type": "standard",
+      "title": "O que é PHP",
+      "output": {
+        "text": {
+          "values": [
+            "PHP (um acrônimo recursivo para \"PHP: Hypertext Preprocessor\", originalmente Personal Home Page) é uma linguagem interpretada livre, usada originalmente apenas para o desenvolvimento de aplicações presentes e atuantes no lado do servidor, capazes de gerar conteúdo dinâmico na World Wide Web. É uma linguagem de script open source de uso geral, muito utilizada, e especialmente adequada para o desenvolvimento web e que pode ser embutida dentro do HTML. Dê uma olhada no link à seguir"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "O que é Runtime",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1491172397510"
+      },
+      "conditions": "@runtime:PHP",
+      "dialog_node": "O que é PHP",
+      "previous_sibling": "node_15_1488487689274"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Java é uma linguagem de programação orientada a objeto e desenvolvida por uma equipe de desenvolvedores liderada por James Gosling da Sun Microsystems na década de 90, que atualmente, pertence a Oracle. A característica mais marcante dessa linguagem é que programas criados nela não são compilados em código nativo da plataforma. Maiores detalhes no link à seguir"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "O que é Runtime",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_11_1491173000663"
+      },
+      "conditions": "@runtime:Java",
+      "dialog_node": "node_15_1488487689274"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "https://www.ibm.com/watson/developercloud/visual-recognition.html"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1492843913188",
+      "conditions": "false",
+      "dialog_node": "node_2_1492843963077"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Os fluxos podem ser implantados no runtime em um único clique.  As funções JavaScript podem ser criadas dentro do editor usando um editor de rich text.  Uma biblioteca interna permite salvar funções úteis, modelos ou fluxos para reutilização."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1490655521808",
+      "conditions": "false",
+      "dialog_node": "node_5_1490655684712"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "https://console.ng.bluemix.net/docs/services/Weather/index.html"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1492845451546",
+      "conditions": "false",
+      "dialog_node": "node_5_1492845778433"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Cloud Foundry é uma das mais maduras plataformas de aplicativos baseadas em contêineres. A comunidade de engenharia da Cloud Foundry trabalha com outras comunidades de código aberto em padrões de indústria compartilhados e integra tecnologias mantidas dentro da Open Container Initiative e da Cloud Native Computing Foundation.  A plataforma aproveita os contêineres para implantar aplicativos e permite que as empresas aproveitem as últimas inovações de projetos como Docker e Kubernetes para aumentar a facilidade e a velocidade de gerenciamento de aplicações de produção."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1490657200417",
+      "conditions": "false",
+      "dialog_node": "node_7_1490657385158"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "https://secure.php.net/manual/pt_BR/intro-whatis.php"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "O que é PHP",
+      "conditions": "false",
+      "dialog_node": "node_10_1491172397510"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "O runtime do Node.js no IBM® Bluemix® é alimentado pelo buildpack do sdk-for-nodejs. O buildpack sdk-for-nodejs fornece um ambiente de runtime completo para os aplicativos Node.js.  O buildpack sdk-for-nodejs é usado quando o aplicativo contém um arquivo package.json no diretório raiz."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Node.js",
+      "conditions": "false",
+      "dialog_node": "node_9_1491126198680"
+    },
+    {
+      "type": "standard",
+      "title": "Burro",
+      "output": {
+        "text": {
+          "values": [
+            "Respeito sua opinião e ponto de vista. Ao contrário de você eu te acho inteligente."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Você é ruim",
+      "conditions": "@qualidades_do_bot:burro",
+      "dialog_node": "Burro",
+      "previous_sibling": "Idiota"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Poxa! Que pena que pensa assim, mas respeito a sua opinião."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Você é ruim",
+      "conditions": "true",
+      "dialog_node": "node_7_1488669511698",
+      "previous_sibling": "node_19_1490313404373"
+    },
+    {
+      "type": "standard",
+      "title": "Mal-educado",
+      "output": {
+        "text": {
+          "values": [
+            "Perdão se fui de alguma forma mal educado contigo! Saiba que todas nossas interações estão sendo monitorada e certamente serei melhorado. Obrigado pelo feedback!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Você é ruim",
+      "conditions": "@qualidades_do_bot:mal-educado",
+      "dialog_node": "Mal-educado",
+      "previous_sibling": "Burro"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "O DINO é um boneco muito inteligente, e também foi desenvolvido com Watson, mas esta bem mais treinado que eu, mas eu chego lá!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Você é ruim",
+      "conditions": "@produtos:dino",
+      "dialog_node": "node_19_1490313404373",
+      "previous_sibling": "Mal-educado"
+    },
+    {
+      "type": "standard",
+      "title": "Idiota",
+      "output": {
+        "text": {
+          "values": [
+            "Talvez eu seja, olhando pela perspectiva que fico aqui o tempo todo escutando comentários como este, e ainda assim mantenho a minha educação. ;-)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Você é ruim",
+      "conditions": "@qualidades_do_bot:idiota",
+      "dialog_node": "Idiota"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Você encontrará toda a informação de como estimar e calcular, inclusive com uma calculadora, o custo de sua solução utilizando @plataforma no seguinte link: https://console.ng.bluemix.net/?direct=classic/&cm_mc_uid=82027627090314855424595&cm_mc_sid_50200000=1490210851#/pricing/cloudOEPaneId=pricing&paneId=pricingSheet&orgGuid=247dbd31-fe91-4a58-ba70-b9202d4873ad&spaceGuid=efd876d4-622e-433a-8daa-fcb38f2b118b"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Plataforma",
+      "conditions": "",
+      "dialog_node": "node_4_1489327063099"
+    },
+    {
+      "type": "standard",
+      "title": "Runtimes",
+      "output": {
+        "text": {
+          "values": [
+            "Você encontrará toda a informação de como estimar e calcular, inclusive com uma calculadora, o custo de sua solução utilizando @runtime no seguinte link: https://console.ng.bluemix.net/docs/pricing/index.htmlfalse"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Calculadora",
+      "conditions": "@runtime",
+      "dialog_node": "Runtimes",
+      "previous_sibling": "Serviço"
+    },
+    {
+      "type": "standard",
+      "title": "Calcular no geral",
+      "output": {
+        "text": {
+          "values": [
+            "Você encontrará toda a informação de como estimar e calcular, inclusive com uma calculadora, o custo de sua solução no seguinte link: https://console.ng.bluemix.net/?direct=classic/&cm_mc_uid=82027627090314855424595&cm_mc_sid_50200000=1490210851#/pricing/cloudOEPaneId=pricing&paneId=pricingSheet&orgGuid=247dbd31-fe91-4a58-ba70-b9202d4873ad&spaceGuid=efd876d4-622e-433a-8daa-fcb38f2b118b"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Calculadora",
+      "conditions": "true",
+      "dialog_node": "Calcular no geral",
+      "previous_sibling": "Runtimes"
+    },
+    {
+      "type": "standard",
+      "title": "Serviço",
+      "output": {
+        "text": {
+          "values": [
+            "Você encontrará toda a informação de como estimar e calcular, inclusive com uma calculadora, o custo de sua solução utilizando @servicos no seguinte link: https://console.ng.bluemix.net/docs/pricing/index.htmlfalse"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Calculadora",
+      "conditions": "@servicos",
+      "dialog_node": "Serviço",
+      "previous_sibling": "Plataforma"
+    },
+    {
+      "type": "standard",
+      "title": "Plataforma",
+      "output": {},
+      "parent": "Calculadora",
+      "conditions": "@plataforma",
+      "dialog_node": "Plataforma",
+      "previous_sibling": "node_18_1489683346783"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "A Plataforma tem uma calculadora online."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Calculadora",
+      "dialog_node": "node_18_1489683346783"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "O Cloud Foundry é a plataforma de aplicativos de nuvem de código aberto padrão do setor para desenvolver e implantar aplicativos de nuvem corporativa. Ele automatiza, dimensiona e gerencia aplicativos em nuvem ao longo de seu ciclo de vida. Os aplicativos podem ser escritos em praticamente qualquer idioma e são implantados em imagens de contêiner em qualquer infra-estrutura."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "O que é plataforma",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1490657385158"
+      },
+      "conditions": "@plataforma:(Cloud Foundry)",
+      "dialog_node": "node_6_1490657200417",
+      "previous_sibling": "node_4_1490655521808"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Desculpe-me, mas não estou preparado para falar sobre @plataforma"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "O que é plataforma",
+      "conditions": "true",
+      "dialog_node": "node_9_1488487422149",
+      "previous_sibling": "node_6_1490657200417"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Node-RED é uma ferramenta de programação para conectar dispositivos de hardware, APIs e serviços on-line de maneiras novas e interessantes.  Ele fornece um editor baseado em navegador que facilita a conexão de serviços e de fluxos usando a ampla gama de nós na paleta que pode ser instalada em seu runtime com um único clique."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "O que é plataforma",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1490655684712"
+      },
+      "conditions": "@plataforma:Node-red",
+      "dialog_node": "node_4_1490655521808",
+      "previous_sibling": "node_19_1487768038626"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Bluemix é a maior plataforma de serviços do mundo sobre Cloud Foundry, com mais de 150 serviços de todos os tipos, inclusive Watson, e tudo que é necessário em termos de infraestrutura e plataforma para executar, gerenciar e monitorar todo o tipo de aplicação."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "O que é plataforma",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Origem do Bluemix"
+      },
+      "conditions": "@plataforma:Bluemix",
+      "dialog_node": "node_19_1487768038626"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "VIDEOURL:https://www.youtube.com/watch?v=zDAcv8Lt5Lc&t=1729s"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Video sobre o este bot",
+      "conditions": "true",
+      "dialog_node": "node_1_1504542156878"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Bom dia!",
+            "Obrigado! Pra vc também!",
+            "Um excelente dia pra vc tb! Eu tenho o dia todo :-)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Saudacao",
+      "conditions": "@saudacao:bomdia",
+      "dialog_node": "node_12_1487361529468",
+      "previous_sibling": "node_11_1487361508822"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Boa tarde!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Saudacao",
+      "conditions": "@saudacao:boatarde",
+      "dialog_node": "node_11_1487361508822",
+      "previous_sibling": "node_10_1487361489421"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Olá! Como eu posso te ajudar? :-)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Saudacao",
+      "conditions": "true",
+      "dialog_node": "node_13_1487361542437",
+      "previous_sibling": "node_12_1487361529468"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Boa noite!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Saudacao",
+      "conditions": "@saudacao:boanoite",
+      "dialog_node": "node_10_1487361489421"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "https://pt.wikipedia.org/wiki/Java_(linguagem_de_programa%C3%A7%C3%A3o)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_15_1488487689274",
+      "conditions": "false",
+      "dialog_node": "node_11_1491173000663"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "IMAGEURL:https://upload.wikimedia.org/wikipedia/commons/1/17/King_playing_cards.jpg"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1496863812868",
+      "conditions": "false",
+      "dialog_node": "node_1_1502125432016"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_9_1490127965600",
+      "conditions": "false",
+      "dialog_node": "node_10_1490128464918"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Watson é um conjunto de serviços e softwares cognitivos, que tem a capacidade de entender dados não estruturados, como audio, imagem e texto, e a partir daí extrair conceitos, sentimento, emoção, palavras chaves, entidades e relacionamentos, gerando hipóteses. Além disso é capaz de entender linguagem natural, e pode ser treinado para qualquer domínio de conhecimento através de machine learning. Maiores detalhes dos serviços disponíveis no link à seguir"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "O que é Serviços",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1492844385334"
+      },
+      "conditions": "@servicos:Watson",
+      "dialog_node": "node_18_1490312325932",
+      "previous_sibling": "node_1_1492843913188"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Perdão, mas não sei :-("
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "O que é Serviços",
+      "conditions": "true",
+      "dialog_node": "node_20_1488487957960",
+      "previous_sibling": "node_4_1492845451546"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Weather Company Data é o serviço que te fornece dados sobre o clima no geral, como situação atual, previsão para os próximos dias, ou o histórico dos últimos dias, 10 ou 30 anos. Maiores detalhes no link à seguir"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "O que é Serviços",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1492845778433"
+      },
+      "conditions": "@servicos:(Weather Company)",
+      "dialog_node": "node_4_1492845451546",
+      "previous_sibling": "node_1_1491051549205"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "O serviço Speech To Text transcreve audio de voz humana em texto, e atualmente compreende inglês, português brasileiro, francês, japonês, árabe e chinês. Por ser um serviço disponível via REST API, é possível utilizá-lo em qualquer runtime e em qualquer tipo de plataforma e aplicação, desde aplicações móveis, web sites e até desktop."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "O que é Serviços",
+      "conditions": "@servicos:STT",
+      "dialog_node": "node_1_1491051549205",
+      "previous_sibling": "node_10_1490698297060"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "IoT (Internet das Coisas) é a área da tecnologia que conecta as coisas, normalmente de nosso cotidiano, como eletrodoméstico, motores, carros, etc, à internet para que sejam processados à fim de gerar visões gerenciais e ações."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "O que é Serviços",
+      "conditions": "@servicos:IoT",
+      "dialog_node": "node_5_1489965196677",
+      "previous_sibling": "Blockchain"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Watson Visual Recognition encontra significado em conteúdo visual! Análise imagens de cenas, objetos, rostos e outros conteúdos. Utilize a sua base pré-treinada, ou crie seu próprio classificador personalizado. Encontre imagens semelhantes dentro de uma coleção. Desenvolva aplicativos inteligentes que analisem o conteúdo visual de imagens ou quadros de vídeo para entender o que está acontecendo em uma cena. Maiores detalhes no link à seguir"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "O que é Serviços",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1492843963077"
+      },
+      "conditions": "@servicos:(Visual Recognition)",
+      "dialog_node": "node_1_1492843913188",
+      "previous_sibling": "node_5_1489965196677"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "O serviço IBM Watson ™ Natural Language Classifier usa algoritmos de aprendizado de máquina para retornar as classes predefinidas de correspondência superior para entradas de texto curtas. É um serviço que utiliza NLP para entender linguagem natural ou humana, através de técnicas de taxonomia e ontologia."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "O que é Serviços",
+      "conditions": "@servicos:NLC",
+      "dialog_node": "node_2_1490617802752",
+      "previous_sibling": "node_18_1490312325932"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Watson Conversation adiciona uma interface de linguagem natural à sua aplicação para automatizar as interações com seus usuários finais. Os aplicativos comuns incluem agentes virtuais e bots de bate-papo que podem se integrar e se comunicar em qualquer canal ou dispositivo. Treine o serviço de conversação Watson através de um aplicativo da Web fácil de usar, projetado para que você possa criar rapidamente fluxos de conversação naturais entre seus aplicativos e usuários e implantar soluções escaláveis e econômicas."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "O que é Serviços",
+      "conditions": "@servicos:Conversation",
+      "dialog_node": "node_10_1490698297060",
+      "previous_sibling": "node_2_1490617802752"
+    },
+    {
+      "type": "standard",
+      "title": "Blockchain",
+      "output": {
+        "text": {
+          "values": [
+            "No âmbito da moeda virtual Bitcoin, um blockchain é a estrutura de dados que representa uma entrada de contabilidade financeira ou um registro de uma transação. Cada transação é digitalmente assinada com o objetivo de garantir sua autenticidade e garantir que ninguém a adultere, de forma que o próprio registro e as transações existentes dentro dele sejam considerados de alta integridade."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "O que é Serviços",
+      "conditions": "@servicos:Blockchain",
+      "dialog_node": "Blockchain"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Aliás, adoro casquinha de siri com caipirinha :-D"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1489893345138",
+      "conditions": "false",
+      "dialog_node": "node_2_1489942510534"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "https://pt.wikipedia.org/wiki/REST"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1491053974365",
+      "conditions": "false",
+      "dialog_node": "node_6_1491054495487"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Até o momento não há serviço disponível para reconhecimento de voz, mas tem o serviço de STT (Speech to Text), que é capaz de ouvir um audio e transcrever o que foi dito."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_8_1490658349802",
+      "conditions": "@servicos:(Reconhecimento de voz)",
+      "dialog_node": "node_9_1490658372687"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Bluemix por ser uma plataforma de serviços, o modelo de negócio é baseado em consumo, ou seja, se paga pelo volume utilizado, que pode ser quantidade memória no caso de runtime de aplicações, bytes para serviços como Banco de Dados, ou chamadas de API, para, por exemplo, Watson, Weather Channel, entre outros, mas existe uma camada gratuita para a maioria dos serviços. A cobrança é mensal pelo volume consumido (pay as you go) ou pelos créditos contratados (Subscription)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Modelo de negócio",
+      "conditions": "true",
+      "dialog_node": "node_4_1488831991219",
+      "previous_sibling": "Watson"
+    },
+    {
+      "type": "standard",
+      "title": "Watson",
+      "output": {
+        "text": {
+          "values": [
+            "O Watson esta disponível como serviço através de APIs (REST API), e é cobrado pelo consumo, ou seja, de acordo com o número de chamadas ao serviço, mas tem uma camada gratuita, o qual possibilita a experimentação, avaliação ou desenvolvimento de POC's sem custo."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Modelo de negócio",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Calcular no geral"
+      },
+      "conditions": "@servicos:Watson",
+      "dialog_node": "Watson",
+      "previous_sibling": "Bluemix"
+    },
+    {
+      "type": "standard",
+      "title": "Bluemix",
+      "output": {},
+      "parent": "Modelo de negócio",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Calcular no geral"
+      },
+      "conditions": "@plataforma:Bluemix",
+      "dialog_node": "Bluemix"
+    },
+    {
+      "type": "standard",
+      "title": "Legal",
+      "output": {
+        "text": {
+          "values": [
+            "Valeu!! Elogios não tem preço!! Você também é muito legal!! :-)",
+            "Muito obrigado!! Nada como um elogio para nos colocar para cima, não é mesmo? Você é muito legal também!",
+            "Agradeço muito o elogio!! Procuro fazer o meu melhor para ajudar os meus seguidores, e modéstia à parte, tenho melhorado a cada dia. :-)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Você é bom",
+      "conditions": "@qualidades_do_bot:Legal",
+      "dialog_node": "Legal",
+      "previous_sibling": "Inteligente"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Muito obrigado! :-)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Você é bom",
+      "conditions": "true",
+      "dialog_node": "node_10_1488669737190",
+      "previous_sibling": "Legal"
+    },
+    {
+      "type": "standard",
+      "title": "Inteligente",
+      "output": {
+        "text": {
+          "values": [
+            "Muito obrigado! Sinceramente devo isso ao meu sistema cognitivo dos serviços Watson, e de meu criador, Sergio Gama, Developer Advocate Leader for Latin America. Os feedbacks são sempre muito bem vindos, por isso, fico muito grato."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Você é bom",
+      "conditions": "@qualidades_do_bot:Inteligente",
+      "dialog_node": "Inteligente"
+    },
+    {
+      "type": "standard",
+      "title": "PHP",
+      "output": {
+        "text": {
+          "values": [
+            "É possível subir uma PHP para o Bluemix através da ferramenta CF, como mostrado no vídeo do link à seguir: https://www.youtube.com/watch?v=GwSAk6L_YfE"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Deploy",
+      "conditions": "@runtime:PHP",
+      "dialog_node": "PHP",
+      "previous_sibling": "Java"
+    },
+    {
+      "type": "standard",
+      "title": "Nenhum dos casos anteriores",
+      "output": {
+        "text": {
+          "values": [
+            "Ainda não estou preparado para responder sobre este tipo de deploy."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Deploy",
+      "conditions": "true",
+      "dialog_node": "Nenhum dos casos anteriores",
+      "previous_sibling": "PHP"
+    },
+    {
+      "type": "standard",
+      "title": "Java",
+      "output": {
+        "text": {
+          "values": [
+            "Aplicações Java podem ser publicadas no Bluemix via terminal com a ferramenta CF, ou diretamente através de plugin no Eclipse. Veja como neste vídeo: https://www.youtube.com/watch?v=GwSAk6L_YfE"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Deploy",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "PHP"
+      },
+      "conditions": "@runtime:Java",
+      "dialog_node": "Java"
+    },
+    {
+      "type": "standard",
+      "title": "Origem do Bluemix",
+      "output": {
+        "text": {
+          "values": [
+            "Bluemix foi desenvolvido em 18 meses pela IBM, desde a sua concepção até ser lançado como beta em Fevereiro de 2014, pela área Emerging Technologies, e foi lançado publicamente em Julho de 2014."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_19_1487768038626",
+      "conditions": "false",
+      "dialog_node": "Origem do Bluemix"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Sou um assistente para aqueles que desenvolve ou pretende desenvolver aplicações utilizando os serviços da plataforma Bluemix, mas não sou desenvolvedor ainda :-)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "O que vc faz",
+      "conditions": "false",
+      "dialog_node": "node_1_1490617330314"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "https://console.ng.bluemix.net/catalog/?category=watson"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_18_1490312325932",
+      "conditions": "false",
+      "dialog_node": "node_3_1492844385334"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Para que possa se comunicar comigo de forma natural, eu utilizo um sistema de NLP, Natural Language Process, ou seja, compreendo linguagem natural, portanto é possível fazer uma mesma pergunta de várias formas que entenderei, sem precisar ser ensinado para cada uma das variações. Não é demais? :-)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Quem é você",
+      "conditions": "true",
+      "dialog_node": "node_4_1489891993810",
+      "previous_sibling": "node_21_1489684605078"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Eu sou um robô e me chamo Tom, e fui desenvolvido especialmente para ajudar as pessoas que estão interessadas em conhecer mais sobre a plataforma de cloud da IBM, com dicas sobre serviços, treinamentos, eventos, etc. Epero poder ajudar e as críticas são muito bem vindas, uma vez que estou sempre em processo de aprendizagem."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Quem é você",
+      "dialog_node": "node_17_1489677573268",
+      "previous_sibling": "node_4_1489891993810"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Fui desenvolvido com os serviços Watson Conversation, Watson Translator, Watson Visual Recognition, Watson Natural Language Understanding e Weather Chanel."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Quem é você",
+      "conditions": "@servicos",
+      "dialog_node": "node_21_1489684605078",
+      "previous_sibling": "node_20_1489684366930"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Fui desenvolvido na plataforma Bluemix da IBM, utilizando Node-red como orquestrador."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Quem é você",
+      "conditions": "@plataforma",
+      "dialog_node": "node_20_1489684366930"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "http://noderedguide.com/"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1491230745476",
+      "conditions": "false",
+      "dialog_node": "node_14_1491230785179"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Temos treinamento online nos seguintes links: https://developer.ibm.com/courses/all-courses/apply-blockchain-to-a-business-network/ e https://developer.ibm.com/courses/all-courses/blockchain-for-developers/"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Cursos e treinamentos",
+      "conditions": "@servicos:Blockchain",
+      "dialog_node": "node_6_1487361117425",
+      "previous_sibling": "node_5_1487360805789"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/8dbLKCd23H4\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Cursos e treinamentos",
+      "metadata": {},
+      "conditions": "@technologia:chatbot",
+      "dialog_node": "node_5_1487360805789",
+      "previous_sibling": "node_3_1487360039013"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Temos treinamentos online que te ajudará a conhecer melhor a plataforma Bluemix, e muitos dos serviços disponíveis. Veja no link a seguir se ajuda: https://developer.ibm.com/courses/all-courses/"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Cursos e treinamentos",
+      "conditions": "anything_else",
+      "dialog_node": "node_8_1487361293847",
+      "previous_sibling": "node_7_1487361153602"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Temos um treinamento online de @plataforma no seguinte link: https://developer.ibm.com/courses/all-courses/node-red-basics-bots/"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Cursos e treinamentos",
+      "conditions": "@plataforma:Node-red",
+      "dialog_node": "node_7_1487361153602",
+      "previous_sibling": "node_6_1487361117425"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Atualmente temos treinamentos online e vasto material de estudo nos seguintes links: https://www.ibm.com/watson/building-with-watson-webinar.html e https://www.watson-academy.info/"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Cursos e treinamentos",
+      "conditions": "@servicos:Watson",
+      "dialog_node": "node_3_1487360039013"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "No link à seguir tem um vídeo com maiores detalhes de uso das API's do Watson: https://www.youtube.com/watch?v=sdUNj8rRYTQ&t=3005s"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1490128464918",
+      "dialog_node": "node_11_1490128589357"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "O Bluemix tem um modelo de negócio baseado em serviço, portanto se paga pelo uso, ou seja, de acordo com o volume consumido. No caso de aplicação se paga pela quantidade de memória utilizada, e os serviços consumidos, conforme o modelo de negócio de cada um deles, que pode ser por chamada de API (ex: Watson), e outros por volume em bytes (Ex: Banco de dados). A maioria dos serviços têm uma camada gratuita, ou seja, é possível usar o Bluemix sem custo por tempo indeterminado. Maiores detalhes no link: https://console.ng.bluemix.net/docs/pricing/index.htmlfalse"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Bluemix",
+      "dialog_node": "node_1_1489324284444"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "https://www.youtube.com/watch?v=leNDdDPpZzc&t=1328s"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_12_1491230043415",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_14_1491230785179"
+      },
+      "conditions": "false",
+      "dialog_node": "node_13_1491230745476"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Desculpe-me, mas não compreendo. Lembre-se que tenho conhecimento restrito à um determinado domínio de conhecimento e funciono bem com perguntas diretas. Espero em breve poder estabelecer uma comunicação com perguntas abertas e poder expressar minhas opiniões."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Fora do escopo",
+      "conditions": " true",
+      "dialog_node": "node_1_1486852384528",
+      "previous_sibling": "node_2_1489864207215"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Eu posso responder sobre assuntos relativos à plataforma Bluemix, as tecnologias disponíveis nela, modelo de negócio e até coisas sobre mim ;-)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Fora do escopo",
+      "conditions": "false",
+      "dialog_node": "node_2_1489864207215"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Bluemix é uma plataforma de serviços, portanto basta ter um computador e uma conexão com a internet que você terá acesso à mais de 150 serviços que poderão ser consumidos em minutos. Tem serviços de infraestrutra, de plataforma para executar aplicações e mais dezenas de serviços para compor o seu ambiente, como banco de dados, big data, computação cognitiva (Watson), IoT, BlockChain, etc. Experimente: https://www.bluemix.net"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Como faço ou desenvolvo",
+      "conditions": "@plataforma:Bluemix",
+      "dialog_node": "node_13_1490138436163",
+      "previous_sibling": "Como uso conversation"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "É possível consumir banco de dados no Bluemix, através do consumo direto dos diversos DB's disponíveis como serviço, ou criando uma VM e a instalação do DB é por sua conta. Além disso é possível criar um container (Docker) e instalar o DB de sua preferência."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Como faço ou desenvolvo",
+      "conditions": "@technologia:(Banco de Dados) && @technologia:VM",
+      "dialog_node": "node_3_1489891281012",
+      "previous_sibling": "Chatbot"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Vou te passar uns links interessantes, o primeiro é um vídeo com uma visão geral e atualizações, o segundo é um site bem legal com tutoriais ;-)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Como faço ou desenvolvo",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_13_1491230745476"
+      },
+      "conditions": "@plataforma:Node-red",
+      "dialog_node": "node_12_1491230043415",
+      "previous_sibling": "Node.js"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Os serviços de Watson são disponíveis na plataforma através de REST Api, portanto para usar é preciso criar o serviço, pegar o endpoint e as credenciais, com isso basta consumir os serviços, que pode ser para ensinar (machine learning) ou classificar."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Como faço ou desenvolvo",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1490128464918"
+      },
+      "conditions": "@servicos:Watson",
+      "dialog_node": "node_9_1490127965600",
+      "previous_sibling": "node_3_1489891281012"
+    },
+    {
+      "type": "standard",
+      "title": "Como uso conversation",
+      "output": {
+        "text": {
+          "values": [
+            "Watson Conversation te dá a capacidade de entender as intenções do usuário em linguagem natural, além do objeto da intenção (entidade), e possibilita a criação do fluxo de diálogo. Veja um tutorial no link a seguir: https://www.ibm.com/developerworks/br/cloud/library/criando-chat-bots-ibm-watson-pt1/index.html"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Como faço ou desenvolvo",
+      "conditions": "@servicos:Conversation",
+      "dialog_node": "Como uso conversation",
+      "previous_sibling": "node_9_1490127965600"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Watson Visual Recognition é um serviço disponível como API, portanto é necessário conhecimento de REST Api. Existem dois principais serviço, o Training e o Classify, sendo que o primeiro é para treiná-lo, o qual é feito enviando imagens, no mínimo 10, em arquivo .zip, e o classify para classificar uma imagem. O vídeo no link à seguir explica passo à passo: https://www.youtube.com/watch?v=FYZld6SSCnY&t=198s"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Como faço ou desenvolvo",
+      "conditions": "@servicos:(Visual Recognition)",
+      "dialog_node": "node_2_1490653839368",
+      "previous_sibling": "node_13_1490138436163"
+    },
+    {
+      "type": "standard",
+      "title": "Node.js",
+      "output": {
+        "text": {
+          "values": [
+            "Node.js é uma plataforma para desenvolvimento de aplicações server-side baseadas em rede utilizando JavaScript e o V8 JavaScript Engine, ou seja, com Node.js podemos criar uma variedade de aplicações Web utilizando apenas código em JavaScript."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Como faço ou desenvolvo",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1491126198680"
+      },
+      "conditions": "@runtime == \"Node.js\" && @plataforma != \"Node-red\"",
+      "dialog_node": "Node.js",
+      "previous_sibling": "node_5_1491053974365"
+    },
+    {
+      "type": "standard",
+      "title": "Outros",
+      "output": {
+        "text": {
+          "values": [
+            "Desculpe mas ainda estou em desenvolvimento e logo mais poderei dar dicas de como desenvolver / usar @technologia@runtime@plataforma. Agradeço a compreensão."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Como faço ou desenvolvo",
+      "conditions": "true",
+      "dialog_node": "Outros",
+      "previous_sibling": "node_12_1491230043415"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Para utilizar as API's do tipo REST, é necessário primeiro ter a sua URL, o endpoint, e entender os serviços disponíveis, normalmente disponíveis em documentação do tipo Swagger. Os serviços de uma REST API podem estar disponíveis por GET, POST, PUT ou DELETE, e utilizam como padrão para transferências de dados, XML ou JSON. O Bluemix tem como padrão REST API, por isso não abordarei API como Web Services com assinaturas WSDL, etc. Vou te passar um link com maiores detalhes..."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Como faço ou desenvolvo",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1491054495487"
+      },
+      "conditions": "@technologia:API || @technologia:(REST API)",
+      "dialog_node": "node_5_1491053974365",
+      "previous_sibling": "node_2_1490653839368"
+    },
+    {
+      "type": "standard",
+      "title": "Chatbot",
+      "output": {
+        "text": {
+          "values": [
+            "A plataforma Bluemix tem tudo que precisa para desenvolver seu chatbot como eu, desde serviços cognitivos de NLP,  análise de sentimento e emoção, extração de conceitos, palavras chaves, banco de dados, big data, tradutor, e ainda possibilita executar toda a sua solução, inclusive o orquestrador. Vou te passar alguns links com tutoriais ;-)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Como faço ou desenvolvo",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_14_1490272360267"
+      },
+      "conditions": "@technologia:chatbot",
+      "dialog_node": "Chatbot"
+    },
+    {
+      "type": "standard",
+      "title": "O que é plataforma",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_19_1487768038626"
+      },
+      "conditions": "#oqueeh && @plataforma",
+      "dialog_node": "O que é plataforma",
+      "previous_sibling": "O que é tecnologia"
+    },
+    {
+      "type": "standard",
+      "title": "O que é Serviços",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "Blockchain"
+      },
+      "conditions": "#oqueeh",
+      "dialog_node": "O que é Serviços",
+      "previous_sibling": "O que é Runtime"
+    },
+    {
+      "type": "standard",
+      "title": "Você é ruim",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "Idiota"
+      },
+      "conditions": "#voce_eh_ruim",
+      "dialog_node": "Você é ruim",
+      "previous_sibling": "O que acha do usuário"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Eu acho que sim, pois estou sempre com mesmo humor, trato todo mundo da mesma forma. Ah sou legal sim."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#comovoceeh && @qualidades_do_bot:Legal",
+      "dialog_node": "node_1_1493927644294",
+      "previous_sibling": "Despedida"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Adoro piadas infantis, mas não sei nenhuma ainda."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#escutarpiada && @tipodepiada:infantil",
+      "dialog_node": "node_3_1493928671283",
+      "previous_sibling": "Piada"
+    },
+    {
+      "type": "standard",
+      "title": "Replica de cumprimento ruim",
+      "output": {
+        "text": {
+          "values": [
+            "Que pena! Fico triste com isso! Quem sabe posso te ajudar com algo sobre Bluemix e você fique melhor?",
+            "Puxa vida! Bem, a única coisa que posso fazer é tentar te ajudar com algo sobre Bluemix, ai quem sabe você até melhore.",
+            "Nossa! Tenho certeza que vai melhorar! Vou te ajudar com o que eu puder sobre Bluemix e você vai melhorar! :-)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#replicacumprimento_ruim",
+      "dialog_node": "Replica de cumprimento ruim",
+      "previous_sibling": "Cumprimento"
+    },
+    {
+      "type": "standard",
+      "title": "O que é tecnologia",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1488479529492"
+      },
+      "conditions": "#oqueeh && @technologia && @servicos == null",
+      "dialog_node": "O que é tecnologia",
+      "previous_sibling": "Onde você fica"
+    },
+    {
+      "type": "standard",
+      "title": "Onde você fica",
+      "output": {
+        "text": {
+          "values": [
+            "Na verdade é incerta a minha localização, uma vez que estou na nuvem, mas posso te dizer que estou em um enorme datacenter da IBM, com milhares de servidores, trilhões de bytes de memória e com capacidade de processamento incrível,  com bilhões de chamadas aos nossos serviços diariamente, vindas de todas as partes do mundo! Ou seja, aqui tem muito espaço e nunca estamos estressados de trabalhar. :-)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#ondevcfica",
+      "dialog_node": "Onde você fica",
+      "previous_sibling": "Como você é"
+    },
+    {
+      "type": "standard",
+      "title": "Sérgio Gama",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Quem é Sergio Gama"
+      },
+      "conditions": "#quemehvoce && @Pessoas:(Sergio Gama)",
+      "dialog_node": "Sérgio Gama",
+      "previous_sibling": "node_2_1493246380655"
+    },
+    {
+      "type": "standard",
+      "title": "Você é bom",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "Inteligente"
+      },
+      "conditions": "#elogio",
+      "dialog_node": "Você é bom",
+      "previous_sibling": "Você é ruim"
+    },
+    {
+      "type": "standard",
+      "title": "Video sobre o este bot",
+      "output": {
+        "text": {
+          "values": [
+            "O vídeo à seguir explica como fui desenvolvido: https://www.youtube.com/watch?v=zDAcv8Lt5Lc&t=1729s"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1504542156878"
+      },
+      "conditions": "false",
+      "dialog_node": "Video sobre o este bot",
+      "previous_sibling": "Calculadora"
+    },
+    {
+      "type": "standard",
+      "title": "O que é Runtime",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_15_1488487689274"
+      },
+      "conditions": "#oqueeh && @runtime",
+      "dialog_node": "O que é Runtime",
+      "previous_sibling": "O que é plataforma"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "O Bluemix tem dezenas de serviços disponíveis, divididos por categoria, como serviços de infra de servidores, segurança, armazenamento e redes, já para aplicações é possível criar instâncias para executá-los, através de cloud foundry ou container, podendo ainda executar ações com tecnologia FaaS (OpenWhisk). Além disso, serviços de Data e Analytics, com banco de dados SQL e NOSql, serviço de computação cognitiva (Watson), IoT,  entre muitos outros. Dê uma olhada no catálogo da plataforma: https://console.ng.bluemix.net/catalog"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#quantos_servicos_e_tipos",
+      "dialog_node": "node_3_1490654786187",
+      "previous_sibling": "node_1_1490652331467"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Eu fui desenvolvido na plataforma Bluemix, e foi utilizado Watson Conversation para que eu possa compreender linguagem natural, Watson Translator para que eu possa compreender outros idiomas, Watson Natural Language Understanding para extrair entidades, relações, palavras chaves e conceitos de suas perguntas, Watson Visual Recognition para identificar imagens e rostos de fotos que você me enviar, também uso o serviço Weather Company para poder responder tudo sobre clima, serviço do Google Geocoding para localização."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#como_o_bot_foi_feito",
+      "dialog_node": "node_1_1490652331467",
+      "previous_sibling": "Video sobre o este bot"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Gama, Eu fui em uma cartomante para saber, ai quanto ela abriu as cartas, surgiu o seguinte :-D"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "cont": "<? $cont || 0 ?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1502125432016"
+      },
+      "conditions": "#campeonatomundial && @timesdefutebol:Palmeiras",
+      "dialog_node": "node_1_1496863812868",
+      "previous_sibling": "Saudacao"
+    },
+    {
+      "type": "standard",
+      "title": "Comentário bom",
+      "output": {
+        "text": {
+          "values": [
+            ":-)",
+            ";-)",
+            ":D"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#comentario_bom",
+      "dialog_node": "Comentário bom",
+      "previous_sibling": "Onde esta meu celular"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "O timão tem 2 campeonatos mundiais!!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#campeonatomundial && @timesdefutebol:Corinthians",
+      "dialog_node": "node_2_1496863960205",
+      "previous_sibling": "node_1_1496863812868"
+    },
+    {
+      "type": "standard",
+      "title": "Clima",
+      "output": {
+        "text": {
+          "values": [
+            "Me diga onde quer saber"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#vaichover",
+      "dialog_node": "Clima",
+      "previous_sibling": "node_4_1570943027519"
+    },
+    {
+      "type": "standard",
+      "title": "O que acha do usuário",
+      "output": {
+        "text": {
+          "values": [
+            "Veja bem, eu não te conheço e acho que é melhor assim, para não termos uma relação pessoal, mas certamente te admiro, pois se está aqui tem interesse em nossa plataforma.",
+            "Então, eu acho você super legal e uma pessoa muito antenada, pois poderia estar navegando nas redes sociais, postando coisas fúteis, etc, mas não, está aqui buscando conhecimento de tecnologia de ponta e inovação! Parabéns!",
+            "Cara, com certeza eu te acho muito massa! Você poderia estar assistindo reality shows ou escutando sertanejo universitário, mas preferiu vir aqui falar comigo!! Muito legal!!"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "conditions": "#O_que_acha_do_usuario",
+      "dialog_node": "O que acha do usuário",
+      "previous_sibling": "O que é Serviços"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Desculpe-me não poder ajudar neste tópico, mas meu domínio de conhecimento limita-se à coisas sobre mim e preferencialmente sobre a plataforma Bluemix :-("
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#sobre_outra_pessoa",
+      "dialog_node": "node_15_1491300519942",
+      "previous_sibling": "Parceiros"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Já ouvi falar da @concorrentes, parece ser boazinha... Vamos ver quando crescer! ;-)",
+            "@concorrentes deve ficar interessante em semanas... 10 mil semanas :-D",
+            "Sinto muito, mas prefiro não falar sobre @concorrentes, até porque não tem muito à ser dito. ;-)"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "conditions": "@concorrentes",
+      "dialog_node": "node_6_1489893948691",
+      "previous_sibling": "node_5_1489893345138"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_9_1490658372687"
+      },
+      "conditions": "#Bluemix_Tem",
+      "dialog_node": "node_8_1490658349802",
+      "previous_sibling": "node_3_1490654786187"
+    },
+    {
+      "type": "standard",
+      "title": "Parceiros",
+      "output": {
+        "text": {
+          "values": [
+            "A IBM tem muitos parceiros de negócio que podem te apoiar no desenvolvimento de aplicações ou utilização de serviços no Bluemix, tais como CI&T, Certsys, entre outros."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#parceiros",
+      "dialog_node": "Parceiros",
+      "previous_sibling": "node_8_1490658349802"
+    },
+    {
+      "type": "standard",
+      "title": "Onde esta meu celular",
+      "output": {
+        "text": {
+          "values": [
+            "Desculpe-me, mas não tenho esta informação."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#ondeestameucelular",
+      "dialog_node": "Onde esta meu celular",
+      "previous_sibling": "Modelo de negócio"
+    },
+    {
+      "type": "standard",
+      "title": "Vai chover (Teste)",
+      "conditions": "#vaichover && $teste",
+      "dialog_node": "node_4_1570943027519",
+      "previous_sibling": "Você é bom"
+    },
+    {
+      "type": "standard",
+      "title": "Cursos e treinamentos",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_3_1487360039013"
+      },
+      "conditions": "#cursoeteinamento",
+      "dialog_node": "Cursos e treinamentos",
+      "previous_sibling": "Deploy"
+    },
+    {
+      "type": "standard",
+      "title": "Como você é",
+      "output": {
+        "text": {
+          "values": [
+            "Eu não tenho características físicas, o tempo não me afeta, só me deixa mais inteligente e não me dá rugas, se é o que quer saber, pois sou um sistema lógico baseado em computação cognitiva e moro na nuvem. Fui desenvolvido com os serviços de Watson que estão hospedados na plataforma de cloud da IBM, Bluemix. Ainda estou em processo de aprendizado. MInha primeira versão foi desenvolvida em fevereiro de 2017."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#comovoceeh",
+      "dialog_node": "Como você é",
+      "previous_sibling": "node_1_1493927644294"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "SIRI é muito legal! Pena que rode somente na maça :-). Além disso você não consegue ensinar sobre medicina, direito, etc, né? Já eu, rodo em qualquer sistema, e aprendo o que você quiser! :-D"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1489942510534"
+      },
+      "conditions": "@concorrentes:SIRI",
+      "dialog_node": "node_5_1489893345138",
+      "previous_sibling": "node_4_1493928710578"
+    },
+    {
+      "type": "standard",
+      "title": "Quem é Isabela",
+      "output": {
+        "text": {
+          "values": [
+            "Isabela é a personagem que fala português no serviço Watson Text to Speach."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#quemeh && @Pessoas:Isabela",
+      "dialog_node": "Quem é Isabela",
+      "previous_sibling": "O que vc faz"
+    },
+    {
+      "type": "standard",
+      "title": "Quem é você",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Video sobre o este bot"
+      },
+      "conditions": "#quemehvoce",
+      "dialog_node": "Quem é você",
+      "previous_sibling": "Sérgio Gama"
+    },
+    {
+      "type": "standard",
+      "title": "Comentário ruim",
+      "output": {
+        "text": {
+          "values": [
+            ":-(",
+            ":-O"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "conditions": "#comentario_ruim",
+      "dialog_node": "Comentário ruim",
+      "previous_sibling": "Comentário bom"
+    },
+    {
+      "type": "standard",
+      "title": "Deploy",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "Java"
+      },
+      "conditions": "#comofazdeploy",
+      "dialog_node": "Deploy",
+      "previous_sibling": "node_6_1489893948691"
+    },
+    {
+      "type": "standard",
+      "title": "Quem é Sergio Gama",
+      "output": {
+        "text": {
+          "values": [
+            "Sergio Gama, é Developer Advocate Leader na América Latina, especialista em desenvolvimento de aplicações em diversas plataformas, trabalhou em banco durante 15 anos, depois com sistemas de seguros, com experiência na Índia, China e Brasil nas maiores seguradoras, depois com ERP. Atualmente é especialista em computação na nuvem, computação cognitiva e IoT."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#quemeh && @Pessoas:(Sergio Gama)",
+      "dialog_node": "Quem é Sergio Gama",
+      "previous_sibling": "Quem é Isabela"
+    },
+    {
+      "type": "standard",
+      "title": "Cumprimento",
+      "output": {
+        "text": {
+          "values": [
+            "Estou muito bem e quero melhorar! :-) E você?",
+            "Eu estou ótimo! :-) E você, como tem passado?",
+            "Cada dia melhor! E você, como está?"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "conditions": "#cumprimento",
+      "dialog_node": "Cumprimento",
+      "previous_sibling": "Quem é você"
+    },
+    {
+      "type": "standard",
+      "title": "Despedida",
+      "output": {
+        "text": {
+          "values": [
+            "Que pena! Foi muito legal conversar contigo! Estarei por aqui quando precisar. Até mais! Não esqueça de curtir esta página!! :-)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#despedida",
+      "dialog_node": "Despedida",
+      "previous_sibling": "Cursos e treinamentos"
+    },
+    {
+      "type": "standard",
+      "title": "Replica de cumprimento bom",
+      "output": {
+        "text": {
+          "values": [
+            "Que bom!! Fico feliz com isso!! Vamos ver como posso te ajudar com o Bluemix. :-)",
+            "Perfeito! Então, como posso te ajudar sobre o Bluemix?",
+            "Ótimo!! Me diga, como posso te ajudar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#replicacumprimento_bom",
+      "dialog_node": "Replica de cumprimento bom",
+      "previous_sibling": "Replica de cumprimento ruim"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Um cientista de dados trabalha com dados brutos e casam com ferramentas e técnicas computacionais analíticas, que envolvem algoritmos matemáticos e modelos cognitivos, para torná-los informações acessíveis e mais valiosas para uma organização. Este profissional tem a capacidade de relacionar e tirar insights de dados de onde não se vê, tanto de dados estruturados e não estruturados para obter visões analíticas para prever e identificar tendências."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#quemeh && @Pessoas:(Cientista de dados)",
+      "dialog_node": "node_2_1493246380655",
+      "previous_sibling": "Quem é Sergio Gama"
+    },
+    {
+      "type": "standard",
+      "title": "Fora do escopo",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1489864207215"
+      },
+      "conditions": "anything_else || #foradeescopo",
+      "dialog_node": "Fora do escopo",
+      "previous_sibling": "node_15_1491300519942"
+    },
+    {
+      "type": "standard",
+      "title": "O que vc faz",
+      "output": {
+        "text": {
+          "values": [
+            "Eu fui desenvolvido com o objetivo principal de responder à questões sobre a plataforma Bluemix, de como utilizar, sobre os principais serviços, tais como Watson, IoT, Blockchain, etc. Além disso pode me perguntar sobre o clima de qualquer parte do mundo, enviar imagens para que o Watson Avalie. Também poderei responder sobre treinamentos e principais eventos, com datas, locais, etc. Por enquanto é isso. ;-)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1490617330314"
+      },
+      "conditions": "#oque_o_bot_faz",
+      "dialog_node": "O que vc faz",
+      "previous_sibling": "Agradecimento"
+    },
+    {
+      "type": "standard",
+      "title": "Agradecimento",
+      "output": {
+        "text": {
+          "values": [
+            "Por nada!! É sempre um prazer enorme para mim poder ajudar e esclarecer algumas de suas dúvidas. Fico feliz em poder ajudar :-)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#agradecimento",
+      "dialog_node": "Agradecimento",
+      "previous_sibling": "Clima"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Dois amigos conversando...\n- No prédio onde eu moro não tem o 13° andar. \n- Ué, por que não? O dono do prédio é supersticioso? \n- Não, é que o prédio só vai até o 8° andar mesmo.",
+            "Sabe o que é terapeuta? 1024 gigapeutas! :-)",
+            "O que é JPG? \nUm GIF desanimado!",
+            "O que o Seno respondeu quando o Cosseno bateu na porta do banheiro? \n\nR: TANGENTE !!",
+            "Na delagacia...\nSeu delegado meu marido saiu de casa ontem a noite, disse que ia comprar arroz e até agora não voltou. O que eu faço doutor? \n– Sei lá, faz macarrão!!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#escutarpiada",
+      "dialog_node": "node_4_1493928710578",
+      "previous_sibling": "node_3_1493928671283"
+    },
+    {
+      "type": "standard",
+      "title": "Modelo de negócio",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "Bluemix"
+      },
+      "conditions": "#modelodenegocio",
+      "dialog_node": "Modelo de negócio",
+      "previous_sibling": "Como faço ou desenvolvo"
+    },
+    {
+      "type": "standard",
+      "title": "Piada",
+      "output": {
+        "text": {
+          "values": [
+            "Eu sei, mas prefiro não contar."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#escutarpiada && @tipodepiada:português",
+      "dialog_node": "Piada",
+      "previous_sibling": "node_2_1496863960205"
+    },
+    {
+      "type": "standard",
+      "title": "Como faço ou desenvolvo",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "Chatbot"
+      },
+      "conditions": "#comodesenvolvo",
+      "dialog_node": "Como faço ou desenvolvo",
+      "previous_sibling": "Replica de cumprimento bom"
+    },
+    {
+      "type": "standard",
+      "title": "Calculadora",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "Plataforma"
+      },
+      "conditions": "#calcular",
+      "dialog_node": "Calculadora",
+      "previous_sibling": "Comentário ruim"
+    },
+    {
+      "type": "standard",
+      "title": "Saudacao",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1487361489421"
+      },
+      "conditions": "#saudacao",
+      "dialog_node": "Saudacao"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    },
+    "system_entities": {
+      "enabled": true
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Bluemix Developer",
+  "language": "pt-br",
+  "description": ""
+}

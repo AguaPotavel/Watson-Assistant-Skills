@@ -1,0 +1,3481 @@
+{
+  "intents": [
+    {
+      "intent": "tipoemprestimo",
+      "examples": [
+        {
+          "text": "Quais os empréstimos que vocês oferecem?"
+        },
+        {
+          "text": "Quais os empréstimos disponíveis?"
+        },
+        {
+          "text": "Qual empréstimo posso pedir?"
+        },
+        {
+          "text": "Quais opções de empréstimos?"
+        },
+        {
+          "text": "Que tipo de empréstimo vocês têm?"
+        }
+      ]
+    },
+    {
+      "intent": "favor",
+      "examples": [
+        {
+          "text": "Pode me ajudar"
+        },
+        {
+          "text": "preciso de uma ajuda"
+        },
+        {
+          "text": "posso te pedir uma ajuda?"
+        },
+        {
+          "text": "pode me fazer um favor?"
+        },
+        {
+          "text": "Me faz um favor?"
+        },
+        {
+          "text": "preciso de um favor"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "pisquelampada",
+      "examples": [
+        {
+          "text": "Pisque a lampada"
+        },
+        {
+          "text": "Deixe a lampada piscando"
+        },
+        {
+          "text": "pisca"
+        },
+        {
+          "text": "poderia piscar a lampada?"
+        },
+        {
+          "text": "Seria legal ter a lampada piscando"
+        },
+        {
+          "text": "Quero a luz piscando"
+        },
+        {
+          "text": "Por favor, pisque a lampada"
+        },
+        {
+          "text": "Pisque a luz"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "saudacao",
+      "examples": [
+        {
+          "text": "oi"
+        },
+        {
+          "text": "Olá"
+        },
+        {
+          "text": "Bom dia"
+        },
+        {
+          "text": "e ai?"
+        },
+        {
+          "text": "e ai gata?"
+        },
+        {
+          "text": "boa tarde"
+        },
+        {
+          "text": "boa noite"
+        }
+      ]
+    },
+    {
+      "intent": "acenderlampada",
+      "examples": [
+        {
+          "text": "acende"
+        },
+        {
+          "text": "Por favor acenda a luz"
+        },
+        {
+          "text": "Acenda a lampada"
+        },
+        {
+          "text": "ligue a lampada"
+        },
+        {
+          "text": "Pode acender a lampada?"
+        },
+        {
+          "text": "Ligue a luz"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "quehorassao",
+      "examples": [
+        {
+          "text": "Qual o horário neste momento no"
+        },
+        {
+          "text": "Que horas é"
+        },
+        {
+          "text": "Quero saber a hora em"
+        },
+        {
+          "text": "Me diga que horas é em"
+        },
+        {
+          "text": "Qual a hora em"
+        },
+        {
+          "text": "Quero saber a hora no"
+        },
+        {
+          "text": "Que horas são na"
+        }
+      ]
+    },
+    {
+      "intent": "drone_takeoff",
+      "examples": [
+        {
+          "text": "suba o drone por favor"
+        },
+        {
+          "text": "subir o drone"
+        },
+        {
+          "text": "Levante voo"
+        },
+        {
+          "text": "por favor levante voo"
+        },
+        {
+          "text": "poderia subir por favor"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "despedida",
+      "examples": [
+        {
+          "text": "Tchau"
+        },
+        {
+          "text": "Ate mais"
+        },
+        {
+          "text": "até logo"
+        },
+        {
+          "text": "Valeu"
+        },
+        {
+          "text": "Fui"
+        },
+        {
+          "text": "Obrigado"
+        }
+      ]
+    },
+    {
+      "intent": "valormoeda",
+      "examples": [
+        {
+          "text": "Quanta custa um dólar hoje?"
+        },
+        {
+          "text": "Quanto está valendo hoje o Euro?"
+        },
+        {
+          "text": "Qual a cotação do Euro?"
+        },
+        {
+          "text": "Quanto esta valendo a moeda americana?"
+        },
+        {
+          "text": "Quanto está o dólar?"
+        },
+        {
+          "text": "Sabe o valor do Dólar?"
+        }
+      ]
+    },
+    {
+      "intent": "comoposso",
+      "examples": [
+        {
+          "text": "Como eu posso desenvolver um"
+        },
+        {
+          "text": "Qual a dica para eu desenvolver"
+        },
+        {
+          "text": "O que devo fazer para desenvolver um"
+        },
+        {
+          "text": "Gostaria de saber como fazer um"
+        },
+        {
+          "text": "Me diga como eu poderia fazer um"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "qualsituacaogeral",
+      "examples": [
+        {
+          "text": "Quais são as condições do local neste momento?"
+        },
+        {
+          "text": "Me dê informação sobre o ambiente no momento"
+        },
+        {
+          "text": "Me dê as informações dos sensores do local"
+        },
+        {
+          "text": "Quero saber sobre as condições do local no momento"
+        },
+        {
+          "text": "Qual a situação geral do ambiente?"
+        },
+        {
+          "text": "Por favor, me passe um panorama geral do ambiente no momento"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "apagarlampada",
+      "examples": [
+        {
+          "text": "Poderia apagar a luz?"
+        },
+        {
+          "text": "Desligue a luz"
+        },
+        {
+          "text": "Desligue a lampada"
+        },
+        {
+          "text": "Agora pode desligar a lampada"
+        },
+        {
+          "text": "Apague a lampada"
+        },
+        {
+          "text": "Por favor apague a luz"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "quemehvc",
+      "examples": [
+        {
+          "text": "Pra que você serve?"
+        },
+        {
+          "text": "O que sabe fazer?"
+        },
+        {
+          "text": "Quem esta falando?"
+        },
+        {
+          "text": "Que tu és?"
+        },
+        {
+          "text": "Qual são as habilidades?"
+        },
+        {
+          "text": "O que você faz?"
+        },
+        {
+          "text": "Quem fala comigo?"
+        }
+      ]
+    },
+    {
+      "intent": "cumprimento",
+      "examples": [
+        {
+          "text": "Como vai você?"
+        },
+        {
+          "text": "Como estão as coias?"
+        },
+        {
+          "text": "Tudo bem?"
+        },
+        {
+          "text": "Como vai?"
+        },
+        {
+          "text": "Você está bem?"
+        },
+        {
+          "text": "Como você está?"
+        }
+      ]
+    },
+    {
+      "intent": "emprestimo",
+      "examples": [
+        {
+          "text": "Gostaria de pedir um empréstimo"
+        },
+        {
+          "text": "quero um empréstimo pessoal"
+        },
+        {
+          "text": "quero grana"
+        },
+        {
+          "text": "quero fazer um empréstimo"
+        },
+        {
+          "text": "preciso de recursos extra, tem?"
+        },
+        {
+          "text": "eu tenho limite pré-aprovado?"
+        },
+        {
+          "text": "Preciso de um empréstimo"
+        }
+      ]
+    },
+    {
+      "intent": "ofensa",
+      "examples": [
+        {
+          "text": "Sua feia!!"
+        },
+        {
+          "text": "Seu imbecil"
+        },
+        {
+          "text": "Você é burro"
+        },
+        {
+          "text": "Você não sabe nada"
+        },
+        {
+          "text": "Seu idiota"
+        },
+        {
+          "text": "Não me ajudou em nada"
+        },
+        {
+          "text": "Você é besta"
+        },
+        {
+          "text": "você é ridícula!!"
+        },
+        {
+          "text": "coisa mais sem graça!!"
+        },
+        {
+          "text": "que palhaçada!!"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "agradecimento",
+      "examples": [
+        {
+          "text": "Agradeço"
+        },
+        {
+          "text": "Valeu!"
+        },
+        {
+          "text": "Ajudou bastante"
+        },
+        {
+          "text": "Muito agrdecido"
+        },
+        {
+          "text": "Obrigado!"
+        },
+        {
+          "text": "Muito obrigado"
+        },
+        {
+          "text": "Obrigado"
+        }
+      ]
+    },
+    {
+      "intent": "quaismoedassabe",
+      "examples": [
+        {
+          "text": "Cotação de quais moedas você sabe?"
+        },
+        {
+          "text": "Você sabe quais cotações?"
+        },
+        {
+          "text": "Quais moedas tem cotação?"
+        },
+        {
+          "text": "De quais moedas você tem?"
+        },
+        {
+          "text": "Quais moedas você sabe?"
+        }
+      ]
+    },
+    {
+      "intent": "quemehsergiogama",
+      "examples": [
+        {
+          "text": "Quem seria este tal de Sérgio Gama"
+        },
+        {
+          "text": "Você conhece o Sérgio Gama?"
+        },
+        {
+          "text": "Me diga quem é o Sérgio Gama"
+        },
+        {
+          "text": "Quem é o Sérgio Gama?"
+        },
+        {
+          "text": "Pode me dizer quem é o Sérgio Gama?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "vamos_fazer_sorteio",
+      "examples": [
+        {
+          "text": "Quer participar do sorteio comigo?"
+        },
+        {
+          "text": "Bora sortear brindes para o pessoal?"
+        },
+        {
+          "text": "Vamos sortear alguns brindes para a galera?"
+        },
+        {
+          "text": "Me ajuda a fazer um sorteio?"
+        },
+        {
+          "text": "Vamos fazer um sorteio?"
+        },
+        {
+          "text": "Da uma ajuda no sorteio para o pessoal?"
+        }
+      ]
+    },
+    {
+      "intent": "qualaluminosidade",
+      "examples": [
+        {
+          "text": "Como está a luz do local agora?"
+        },
+        {
+          "text": "Qual o nível de luz na sala agora?"
+        },
+        {
+          "text": "Voc6e acha que esta claro aqui?"
+        },
+        {
+          "text": "Será que está escuro?"
+        },
+        {
+          "text": "Quanto esta escuro no ambiente?"
+        },
+        {
+          "text": "Esta claro aqui?"
+        },
+        {
+          "text": "Qual a luz do ambiente?"
+        }
+      ]
+    },
+    {
+      "intent": "qualatemperatura",
+      "examples": [
+        {
+          "text": "Você sabe a temperatura da sala não sabe porque não está ligado está"
+        },
+        {
+          "text": "Esta quente aqui?"
+        },
+        {
+          "text": "Quantos graus está no ambiente?"
+        },
+        {
+          "text": "Qual a temperatura do ambiente agora?"
+        },
+        {
+          "text": "Qual a temperatura no local?"
+        },
+        {
+          "text": "Me diga sobre a temperatura no ambiente"
+        }
+      ]
+    },
+    {
+      "intent": "pedirparaverimagens",
+      "examples": [
+        {
+          "text": "No caso de eu te pedir para procurar fotos de animais, menos de leão, o que faria?"
+        },
+        {
+          "text": "E se eu quiser ver fotos de macacos e de mais nenhum outro animal"
+        },
+        {
+          "text": "Você entenderia se eu pedisse para ver fotos de animais, menos de macacos?"
+        },
+        {
+          "text": "Caso eu diga que quero ver somente elefantes, o que faria?"
+        },
+        {
+          "text": "Se eu pedir para me mostrar fotos de cachorros somente?"
+        },
+        {
+          "text": "Se eu pedir para ver imagens de animais menos de elefante, o que entende?"
+        },
+        {
+          "text": "Caso eu queira ver fotos de animais, menos de gato, o que você faria?"
+        },
+        {
+          "text": "Me mostre fotos de animais, mas que não tenha chifres"
+        }
+      ]
+    },
+    {
+      "intent": "falesobre",
+      "examples": [
+        {
+          "text": "Você pode me contar mais sobre"
+        },
+        {
+          "text": "me fale do mackenzie"
+        },
+        {
+          "text": "Fale mais sobre"
+        },
+        {
+          "text": "Quero saber mais sobre"
+        },
+        {
+          "text": "Poderia me falar mais sobre"
+        },
+        {
+          "text": "Gostaria de saber um pouco mais sobre"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "respostacumprimentoruim",
+      "examples": [
+        {
+          "text": "bem ruim"
+        },
+        {
+          "text": "Estou mal"
+        },
+        {
+          "text": "muitos problemas"
+        },
+        {
+          "text": "nada legal"
+        },
+        {
+          "text": "Poderia estar melhor"
+        },
+        {
+          "text": "Nada bem"
+        }
+      ]
+    },
+    {
+      "intent": "oqueehengenharia",
+      "examples": [
+        {
+          "text": "Por favor, quero saber o que é engenharia"
+        },
+        {
+          "text": "Você sabe o quê é engenharia?"
+        },
+        {
+          "text": "Me diga o que seria enenharia"
+        },
+        {
+          "text": "O que é engenharia?"
+        },
+        {
+          "text": "Engenharia é para o quê?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "sorteio",
+      "examples": [
+        {
+          "text": "Quero um número"
+        },
+        {
+          "text": "Nos diga algum número"
+        },
+        {
+          "text": "Me dê um número por favor"
+        },
+        {
+          "text": "me dê um valor até 50"
+        },
+        {
+          "text": "Preciso de um número"
+        },
+        {
+          "text": "Me passe um número"
+        },
+        {
+          "text": "Me diga um número por favor"
+        }
+      ]
+    },
+    {
+      "intent": "saudaropessoal",
+      "examples": [
+        {
+          "text": "Que tal dar um bom dia para a galera aqui?"
+        },
+        {
+          "text": "Isabela, dê boa tarde para o pessoal"
+        },
+        {
+          "text": "Isa, Dê boa noite para o pessoal"
+        },
+        {
+          "text": "Fala um alô para o pessoal"
+        },
+        {
+          "text": "De um alô para o pessoal"
+        },
+        {
+          "text": "Diga um oi para o pessoal"
+        },
+        {
+          "text": "De um bom dia par ao pessoal"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "drone_takephoto",
+      "examples": [
+        {
+          "text": "Pode tirar uma foto"
+        },
+        {
+          "text": "Tirar foto com o drone"
+        },
+        {
+          "text": "por favor tire uma foto"
+        },
+        {
+          "text": "Uma foto por favor"
+        },
+        {
+          "text": "Tire uma foto com o drone"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ai_na_saude",
+      "examples": [
+        {
+          "text": "Qual a sua visão sobre o futuro das profissões?"
+        },
+        {
+          "text": "Me diga porque Inteligência Artificial veio para ajudar s médicos?"
+        },
+        {
+          "text": "De que maneira IA pode ajudar a área de saúde?"
+        },
+        {
+          "text": "Com a sua chegada, o que vai acontecer com os profissionais?"
+        },
+        {
+          "text": "Você veio para substituir os profissionais?"
+        },
+        {
+          "text": "porque AI é importante para saúde?"
+        },
+        {
+          "text": "Inteligência Artificial veio para substituir os seres humanos?"
+        },
+        {
+          "text": "O que você diria para as pessoas aqui sobre o futuro das profissões?"
+        },
+        {
+          "text": "Devemos nos preocupar quanto nosso emprego?"
+        },
+        {
+          "text": "É verdade que muitas profissões vão ser substituidas ou desaparecerem?"
+        },
+        {
+          "text": "E o humanos, devem se preocupar com Inteligência Artificial?"
+        },
+        {
+          "text": "Como AI pode ajudar os médicos?"
+        },
+        {
+          "text": "Você veio para substiruir os profissionais, dominar tudo?"
+        },
+        {
+          "text": "As pesquisas médicas estão ficando mais inteligentes com IA?"
+        },
+        {
+          "text": "Inteligência Artificial pode ajudar na área da medicina?"
+        },
+        {
+          "text": "AI vai substituir os médicos?"
+        },
+        {
+          "text": "Como Inteligência Artificial tem ajudado na medicina?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "quercoreh",
+      "examples": [
+        {
+          "text": "Como é a cor"
+        },
+        {
+          "text": "Queria saber que cor é"
+        },
+        {
+          "text": "Como seria a cor"
+        },
+        {
+          "text": "A cor cinza como é?"
+        },
+        {
+          "text": "Você sabe como é a cor"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "duvida",
+      "examples": [
+        {
+          "text": "Estou em dúvida"
+        },
+        {
+          "text": "Putz! Não sei"
+        },
+        {
+          "text": "Quero pensar melhor"
+        },
+        {
+          "text": "Caramba! sei lá"
+        },
+        {
+          "text": "Não tenho certeza"
+        },
+        {
+          "text": "preciso pensar"
+        },
+        {
+          "text": "Ainda não sei"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "respostacumprimentobom",
+      "examples": [
+        {
+          "text": "cada dia melhor"
+        },
+        {
+          "text": "Estou muito bem"
+        },
+        {
+          "text": "Estou bem também"
+        },
+        {
+          "text": "bem tb"
+        },
+        {
+          "text": "Estou ótimo"
+        },
+        {
+          "text": "Tudo jóia também"
+        },
+        {
+          "text": "Vou muito bem"
+        }
+      ]
+    },
+    {
+      "intent": "ondeestamos",
+      "examples": [
+        {
+          "text": "O que acontece aqui hoje?"
+        },
+        {
+          "text": "Sabe onde estamos?"
+        },
+        {
+          "text": "Me fale sobre o que acontece aqui"
+        },
+        {
+          "text": "me diga onde estamos agora"
+        },
+        {
+          "text": "Por favor, me diga onde estamos"
+        },
+        {
+          "text": "oi, me diga onde a gente tá hoje?"
+        },
+        {
+          "text": "Onde estamos?"
+        },
+        {
+          "text": "Que local é este?"
+        }
+      ]
+    },
+    {
+      "intent": "drone_land",
+      "examples": [
+        {
+          "text": "pode descer o drone"
+        },
+        {
+          "text": "descer o drone"
+        },
+        {
+          "text": "Pousar o drone"
+        },
+        {
+          "text": "por favor pouse o drone"
+        },
+        {
+          "text": "Desça o drone"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "oquesabefazer",
+      "examples": [
+        {
+          "text": "sabe fazer o quê?"
+        },
+        {
+          "text": "O que sabe fazer?"
+        },
+        {
+          "text": "O que posso te perguntar?"
+        },
+        {
+          "text": "Que coisas pode responder?"
+        },
+        {
+          "text": "O que você faz?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "o_que_eh_AI",
+      "examples": [
+        {
+          "text": "Sabe o que é Inteligência Artificial?"
+        },
+        {
+          "text": "Saberia me dizer o que é AI?"
+        },
+        {
+          "text": "O que é AI?"
+        },
+        {
+          "text": "Me explique o que seria Inteligência Artificial?"
+        },
+        {
+          "text": "Gostaria de saber o que é Inteligência Artificial"
+        },
+        {
+          "text": "Sabe me dizer o que é Inteligência Artificial?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "elogio",
+      "examples": [
+        {
+          "text": "Sensacional"
+        },
+        {
+          "text": "Incrível!"
+        },
+        {
+          "text": "Fantástico!"
+        },
+        {
+          "text": "Show!!"
+        },
+        {
+          "text": "Top"
+        },
+        {
+          "text": "vc é demais!!"
+        },
+        {
+          "text": "Parabéns"
+        },
+        {
+          "text": "Parabéns! Você é muito intelligente"
+        },
+        {
+          "text": "Gostei muito da experiência"
+        },
+        {
+          "text": "Você é muito inteligente"
+        },
+        {
+          "text": "Uau!!"
+        },
+        {
+          "text": "Excelente"
+        },
+        {
+          "text": "Muito bom!!"
+        }
+      ]
+    },
+    {
+      "intent": "saldo",
+      "examples": [
+        {
+          "text": "Eu tenho saldo?"
+        },
+        {
+          "text": "quero o saldo"
+        },
+        {
+          "text": "e ai mano tem cascalho na poupança?"
+        },
+        {
+          "text": "Qual o saldo da minha conta?"
+        },
+        {
+          "text": "Preciso saber do meu saldo"
+        },
+        {
+          "text": "Eu tenho dinheiro ai?"
+        },
+        {
+          "text": "Quanto eu tenho disponível?"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "saudacao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Boa tarde",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bom dia",
+          "synonyms": [
+            "Buenas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Boa noite",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "sys-currency",
+      "values": []
+    },
+    {
+      "entity": "tipomoeda",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Euro",
+          "synonyms": [
+            "Dinheiro europeu",
+            "dinheiro da europa",
+            "$ europeu"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dólar",
+          "synonyms": [
+            "Dollar",
+            "dolar",
+            "US$",
+            "Moeda americana",
+            "$ americano"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "instituicao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Flamengo",
+          "synonyms": [
+            "Mengo",
+            "Mengão"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mackenzie",
+          "synonyms": [
+            "Maquenze",
+            "Maquenzi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Simpósio",
+          "synonyms": [
+            "Simposio",
+            "Simpózio",
+            "Cimpósio"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "simnao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Não",
+          "synonyms": [
+            "nao",
+            "desisto",
+            "esquece"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sim",
+          "synonyms": [
+            "yes",
+            "confirmo",
+            "com certeza"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "carinho",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "linda",
+          "synonyms": [
+            "Lindona",
+            "Sua linda"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fofa",
+          "synonyms": [
+            "fofinha"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bonita",
+          "synonyms": [
+            "bonitona"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Minha deusa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "gata",
+          "synonyms": [
+            "gatinha"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cheirosa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "docinho de coco",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Querida",
+          "synonyms": [
+            "Queridinha",
+            "Queridona"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "animais",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Gato",
+          "synonyms": [
+            "Gatos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Leão",
+          "synonyms": [
+            "Leões"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cachorro",
+          "synonyms": [
+            "Cachorros"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Elefante",
+          "synonyms": [
+            "Elefantes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Macaco",
+          "synonyms": [
+            "Macacos"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "produtos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Conta corrente",
+          "synonyms": [
+            "conta",
+            "cc",
+            "konta"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Poupança",
+          "synonyms": [
+            "poupanca"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "tipo_emprestimo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Leasing",
+          "synonyms": [
+            "lising",
+            "lisin",
+            "lisim"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CDC",
+          "synonyms": [
+            "Cedecê",
+            "Cedêce"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pessoal",
+          "synonyms": [
+            "pessoal",
+            "Emprestimo pessoal",
+            "Empréstimo pessoal"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Crédito imobiliário",
+          "synonyms": [
+            "Credito imobiliario",
+            "Mobiliário",
+            "mobiliario"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "isabela",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Isabela",
+          "synonyms": [
+            "Isa",
+            "Iza",
+            "izabela",
+            "issabela",
+            "Isinha",
+            "Izinha"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "tipotecnologia",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Cloud Computing",
+          "synonyms": [
+            "Claude Computin",
+            "Claude Computim",
+            "Claudi Computin",
+            "Claudi Computim"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "A I",
+          "synonyms": [
+            "IA",
+            "A I",
+            "Inteligência Artificial",
+            "Inteligencia artificial"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Watson",
+          "synonyms": [
+            "Uótisson",
+            "Uótisón"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ChatBot",
+          "synonyms": [
+            "bot",
+            "bóti",
+            "bóte",
+            "ChatiBóte",
+            "Chatbox"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cores",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Amarela",
+          "synonyms": [
+            "amarelo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Marrom",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Verde Escuro",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Laranja",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cinza",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Prata",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Azul",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Verde",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Roxo",
+          "synonyms": [
+            "Roxa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Rosa",
+          "synonyms": [
+            "Magenta"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Azul Marinho",
+          "synonyms": [
+            "Azul Escuro"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ciano",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Violeta",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rosa Escuro",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Branca",
+          "synonyms": [
+            "Branco"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Vermelha",
+          "synonyms": [
+            "vermelho"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Limao",
+          "synonyms": [
+            "Verde Limão",
+            "Limão"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "afirmativas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Somente",
+          "synonyms": [
+            "Só quero",
+            "Exclusivamente",
+            "Só de",
+            "apenas"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "negativas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Tirando",
+          "synonyms": [
+            "Não querer",
+            "Não quiser"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Menos",
+          "synonyms": [
+            "Exceto",
+            "eceto",
+            "Mas não"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "https://3a783322.us-south.apiconnect.appdomain.cloud/bb/nlu-pt",
+      "name": "main_webhook",
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ]
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1556387941194",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$number",
+      "conditions": "!$valor || @sys-number > 1 || entities[1] && entities[1].entity == \"sys-number\"",
+      "dialog_node": "slot_3_1556388321017"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Ajudo em algo mais?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1501676764914",
+      "conditions": "false",
+      "dialog_node": "node_3_1501677227833",
+      "previous_sibling": "node_2_1501676784095"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Obrigado pelo fidibéque!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1501676764914",
+      "conditions": "@sys-number.value >0 && @sys-number < 4 && intents[0].confidence < 0.5",
+      "dialog_node": "node_2_1501676784095"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "É pra já!"
+          ]
+        }
+      },
+      "parent": "node_1_1529957910662",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_3_1529958060339",
+      "previous_sibling": "node_2_1529958050051"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Acendendo na cor @cores.literal"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1529957910662",
+      "metadata": {},
+      "conditions": "@cores",
+      "dialog_node": "node_2_1529958050051"
+    },
+    {
+      "type": "standard",
+      "title": "Poupança",
+      "output": {
+        "text": {
+          "values": [
+            "Você tem hoje 1.230.000 reais na poupança"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Saldo",
+      "conditions": "@produtos:Poupança",
+      "dialog_node": "Poupança",
+      "previous_sibling": "Conta"
+    },
+    {
+      "type": "standard",
+      "title": "Sem produto",
+      "output": {
+        "text": {
+          "values": [
+            "Você quer saber o saldo de sua Conta ou da Poupança?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Saldo",
+      "conditions": "anything_else",
+      "dialog_node": "Sem produto",
+      "previous_sibling": "Poupança"
+    },
+    {
+      "type": "standard",
+      "title": "Conta",
+      "output": {
+        "text": {
+          "values": [
+            "O saldo de sua conta é de 352.000 reais"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Saldo",
+      "metadata": {},
+      "conditions": "@produtos:(Conta corrente)",
+      "dialog_node": "Conta"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "Sem produto",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "Conta"
+      },
+      "conditions": "@produtos",
+      "dialog_node": "node_9_1493993985729"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Obrigada gatinho, Me diga como posso te ajudar.",
+            "Obrigada lindo! O que quer de mim hoje?"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "Saudacao",
+      "conditions": "@carinho",
+      "dialog_node": "node_1_1505704686012",
+      "previous_sibling": "node_10_1501675535367"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Oi Gama, como posso te ajudar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Saudacao",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_2_1506427251645",
+      "previous_sibling": "node_1_1505704686012"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Olá senhor Gama!"
+          ]
+        }
+      },
+      "parent": "Saudacao",
+      "metadata": {},
+      "conditions": "@isabela",
+      "dialog_node": "node_4_1528138504630",
+      "previous_sibling": "node_2_1528138221924"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "@saudacao"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Saudacao",
+      "metadata": {},
+      "conditions": "@saudacao",
+      "dialog_node": "node_10_1501675535367",
+      "previous_sibling": "node_4_1528138504630"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Olá Gama, @saudacao! Diga o que precisa senhor."
+          ]
+        }
+      },
+      "parent": "Saudacao",
+      "metadata": {},
+      "conditions": "@saudacao && @isabela",
+      "dialog_node": "node_2_1528138221924",
+      "previous_sibling": "node_9_1501675535030"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Obirgada lindo! Ganhei o dia! @saudacao pra você também!",
+            "Nossa! Você é muito gentil! @saudacao pra você também lindão!",
+            "São seus olhos! @saudacao pra ti também!!"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "Saudacao",
+      "conditions": "@saudacao && @carinho",
+      "dialog_node": "node_9_1501675535030"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Pensa direitinho! Não temos pressa! Se quiser processo imediatamente o empréstimo $tipo_emprestimo, no valor de <? T(String).format('%.2f',$currency.toDouble()) ?> reais? ",
+            "Sem problemas! Só me dizer se quer ou não e já resolvemos o empréstimo $tipo_emprestimo, no valor de <? T(String).format('%.2f',$currency.toDouble()) ?> reais? ",
+            "Faz parte! Te entendo! É uma decisão importante! Fique tranquilo! Só querer e o empréstimo $tipo_empréstimo, no valor de <? T(String).format('%.2f',$currency.toDouble()) ?> reais estará em sua conta. "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1501553007707",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1556972810878"
+      },
+      "conditions": "#duvida",
+      "dialog_node": "node_1_1556965419516",
+      "previous_sibling": "node_2_1556972810878"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_2_1501553022509",
+      "output": {
+        "text": {
+          "values": [
+            "Por favor, informe o tipo de empréstimo e valor.",
+            "Então eu preciso saber o tipo de empréstimo e valor."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1501553007707",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_2_1501553022509",
+      "previous_sibling": "handler_14_1501553925990"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_14_1501553925990",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1501553007707",
+      "context": {
+        "currency": "0",
+        "tipo_emprestimo": "0"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_all_slots"
+      },
+      "conditions": "#despedida || #saudacao",
+      "event_name": "generic",
+      "dialog_node": "handler_14_1501553925990",
+      "previous_sibling": "handler_13_1501553437096"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_9_1567619294004",
+      "output": {
+        "text": {
+          "values": [
+            "Entendo! Você confirma então um empréstimo $tipo_emprestimo, no valor de <? T(String).format('%.2f',$currency.toDouble()) ?> reais? Posso processar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1501553007707",
+      "conditions": "anything_else",
+      "dialog_node": "response_9_1567619294004",
+      "previous_sibling": "response_3_1567623315244"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Sem problemas!! Estarei por aqui quando precisar."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1501553007707",
+      "metadata": {},
+      "conditions": " $tipo_emprestimo == \"0\" && $currency == \"0\"",
+      "dialog_node": "node_1_1505268690884",
+      "previous_sibling": "node_3_1505268972611"
+    },
+    {
+      "type": "slot",
+      "title": "slot_3_1501553022523",
+      "output": {},
+      "parent": "node_1_1501553007707",
+      "variable": "$tipo_emprestimo",
+      "dialog_node": "slot_3_1501553022523",
+      "previous_sibling": "response_9_1567619294004"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_1_1501553007707",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1501676764914"
+      },
+      "conditions": "@simnao:Sim",
+      "dialog_node": "node_15_1501553998777",
+      "previous_sibling": "node_1_1556965419516"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Não entendi! Você confirma ou não o empréstimo $tipo_emprestimo, no valor de <? T(String).format('%.2f',$currency.toDouble()) ?> reais? ",
+            "Perdão! Posso confirmar ou não o empréstimo $tipo_emprestimo, no valor de <? T(String).format('%.2f',$currency.toDouble()) ?> reais? "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1501553007707",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1556972810878"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_3_1505268972611",
+      "previous_sibling": "node_22_1501556720780"
+    },
+    {
+      "type": "standard",
+      "title": "Inicio",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1501553007707",
+      "metadata": {},
+      "conditions": "false",
+      "dialog_node": "node_2_1556972810878",
+      "previous_sibling": "handler_2_1501553022509"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_1_1501553007707",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1501676764914"
+      },
+      "conditions": "@simnao:Não",
+      "dialog_node": "node_22_1501556720780",
+      "previous_sibling": "node_15_1501553998777"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1567623315244",
+      "output": {
+        "text": {
+          "values": [
+            "Ficará mais feliz agora! Você confirma então um empréstimo $tipo_emprestimo, no valor de <? T(String).format('%.2f',$currency.toDouble()) ?> reais? Posso processar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1501553007707",
+      "conditions": "$nlu_result.emotion == \"Alegre\"",
+      "dialog_node": "response_3_1567623315244",
+      "previous_sibling": "response_1_1567622822242"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Você parece um pouco triste! Você confirma então um empréstimo $tipo_emprestimo, no valor de <? T(String).format('%.2f',$currency.toDouble()) ?> reais? Posso processar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1501553007707",
+      "metadata": {},
+      "conditions": "$nlu_result.emotion == \"Triste\"",
+      "dialog_node": "node_2_1505268792165",
+      "previous_sibling": "node_1_1505268690884"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_1_1567622822242",
+      "output": {
+        "text": {
+          "values": [
+            "Fique calmo tá? Você confirma então um empréstimo $tipo_emprestimo, no valor de <? T(String).format('%.2f',$currency.toDouble()) ?> reais? Posso processar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1501553007707",
+      "conditions": "$nlu_result.emotion == \"Irritado\"",
+      "dialog_node": "response_1_1567622822242",
+      "previous_sibling": "node_2_1505268792165"
+    },
+    {
+      "type": "slot",
+      "title": "slot_6_1501553103952",
+      "output": {},
+      "parent": "node_1_1501553007707",
+      "variable": "$currency",
+      "dialog_node": "slot_6_1501553103952",
+      "previous_sibling": "slot_3_1501553022523"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_13_1501553437096",
+      "output": {
+        "text": {
+          "values": [
+            "Temos CDC, Pessoal, Imobiliário e Lizin"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1501553007707",
+      "metadata": {},
+      "conditions": "#tipoemprestimo",
+      "event_name": "generic",
+      "dialog_node": "handler_13_1501553437096"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_12_1501553410332",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_6_1501553103952",
+      "event_name": "filled",
+      "dialog_node": "handler_12_1501553410332",
+      "previous_sibling": "handler_7_1501553103952"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_7_1501553103952",
+      "output": {},
+      "parent": "slot_6_1501553103952",
+      "context": {
+        "currency": "@sys-currency"
+      },
+      "conditions": "@sys-currency",
+      "event_name": "input",
+      "dialog_node": "handler_7_1501553103952",
+      "previous_sibling": "handler_8_1501553103952"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_11_1501553387167",
+      "output": {
+        "text": {
+          "values": [
+            "Por favor, indique o valor."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_6_1501553103952",
+      "event_name": "nomatch",
+      "dialog_node": "handler_11_1501553387167",
+      "previous_sibling": "handler_12_1501553410332"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_8_1501553103952",
+      "output": {
+        "text": "Qual o valor do empréstimo?"
+      },
+      "parent": "slot_6_1501553103952",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1501553103952"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Infelizmente ainda não saberia falar mais sobre isso."
+          ]
+        }
+      },
+      "parent": "node_1_1527015393408",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_3_1527015578853",
+      "previous_sibling": "node_1_1539693355901"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Chate Bóte é a combinação das palavras Cháte com Robot, ou seja, através de algorítimos computacionais podemos desenvolver um robot que responde como um ser humano e assim póde interagir com as pessoas via Cháti."
+          ]
+        }
+      },
+      "parent": "node_1_1527015393408",
+      "metadata": {},
+      "conditions": "@tipotecnologia:ChatBot",
+      "dialog_node": "node_4_1527016236265",
+      "previous_sibling": "node_2_1527015567970"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Neste Simpósio, você vai conhecer um pouco mais sobre as tecnologias utilizadas em Inteligência Artificial como processamento de Linguagem Natural, Agentes Virtuais, Chatbótis, Reconhecimento de Padrões, Visão Computacional, entre outras"
+          ]
+        }
+      },
+      "parent": "node_1_1527015393408",
+      "metadata": {},
+      "conditions": "@instituicao:Simpósio",
+      "dialog_node": "node_1_1527133366010",
+      "previous_sibling": "node_4_1527016236265"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "O Clube de Regatas do Flamengo é uma agremiação poliesportiva brasileira com sede na cidade do Rio de Janeiro. Fundado no bairro de mesmo nome para disputas de remo em 17 de novembro de 1895, tornou-se um dos clubes mais bem-sucedidos e populares do esporte brasileiro, especialmente pelo futebol!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1527015393408",
+      "metadata": {},
+      "conditions": "@instituicao:Flamengo",
+      "dialog_node": "node_1_1539693355901",
+      "previous_sibling": "node_1_1527133366010"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Universidade Presbiteriana Mackenzie é uma instituição de ensino superior particular, filantrópica e confessional do Brasil. Possui campi de graduação e pós-graduação em São Paulo, Campinas e Barueri."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1527015393408",
+      "metadata": {},
+      "conditions": "@instituicao:Mackenzie",
+      "dialog_node": "node_2_1527015567970"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Claro querido! Qualquer coisa que esteja ao meu alcance."
+          ]
+        }
+      },
+      "parent": "node_5_1528138743932",
+      "metadata": {},
+      "conditions": "@carinho",
+      "dialog_node": "node_6_1528138761232",
+      "previous_sibling": "node_8_1528139199816"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Se estiver ao meu alcance! Com certeza!"
+          ]
+        }
+      },
+      "parent": "node_5_1528138743932",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_7_1528138800457",
+      "previous_sibling": "node_9_1528139326610"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Pois não senhor Gama, se estiver ao meu alcance, farei com o maior prazer."
+          ]
+        }
+      },
+      "parent": "node_5_1528138743932",
+      "metadata": {},
+      "conditions": "@isabela",
+      "dialog_node": "node_9_1528139326610",
+      "previous_sibling": "node_6_1528138761232"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Claro senhor Gama, qualquer coisa que estiver ao meu alcance! Obrigada pelo @carinho.literal"
+          ]
+        }
+      },
+      "parent": "node_5_1528138743932",
+      "metadata": {},
+      "conditions": "@carinho && @isabela",
+      "dialog_node": "node_8_1528139199816"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Tirando foto!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1560770004966",
+      "metadata": {},
+      "conditions": "#drone_takephoto",
+      "dialog_node": "node_4_1560770203963",
+      "previous_sibling": "node_3_1560770127003"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Pousando o drone!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1560770004966",
+      "metadata": {},
+      "conditions": "#drone_land",
+      "dialog_node": "node_3_1560770127003",
+      "previous_sibling": "node_2_1560770074547"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Drone levantando voô!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1560770004966",
+      "metadata": {},
+      "conditions": "#drone_takeoff",
+      "dialog_node": "node_2_1560770074547"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_7_1567619513333",
+      "parent": "node_8_1567619490367",
+      "conditions": "anything_else",
+      "dialog_node": "response_7_1567619513333",
+      "previous_sibling": "response_2_1567619512266"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_2_1567619512266",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_8_1567619490367",
+      "conditions": "$nlu_result",
+      "dialog_node": "response_2_1567619512266",
+      "previous_sibling": "node_1_1501553007707"
+    },
+    {
+      "type": "frame",
+      "output": {},
+      "parent": "node_8_1567619490367",
+      "metadata": {
+        "callout": {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "text": "<? input.text ?>"
+          },
+          "result_variable": "webhook_result_1"
+        },
+        "fallback": "leave"
+      },
+      "conditions": "true",
+      "dialog_node": "node_1_1501553007707"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Que cor por exemplo?"
+      },
+      "parent": "slot_11_1529958666862",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_13_1529958666862",
+      "previous_sibling": "handler_12_1529958666862"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_11_1529958666862",
+      "context": {
+        "cores": "@cores"
+      },
+      "conditions": "@cores",
+      "event_name": "input",
+      "dialog_node": "handler_12_1529958666862"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1529958381419",
+      "variable": "$cores",
+      "dialog_node": "slot_11_1529958666862",
+      "previous_sibling": "node_9_1529958435810"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Veja um exemplo da côr @cores.literal na lâmpada."
+          ]
+        }
+      },
+      "parent": "node_8_1529958381419",
+      "disabled": true,
+      "metadata": {},
+      "conditions": "@cores",
+      "dialog_node": "node_9_1529958435810"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Ta legal, piscando agora!"
+          ]
+        }
+      },
+      "parent": "node_5_1529958277390",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_7_1529958325303",
+      "previous_sibling": "node_6_1529958292495"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Piscando na cor @cores.literal"
+          ]
+        }
+      },
+      "parent": "node_5_1529958277390",
+      "metadata": {},
+      "conditions": "@cores",
+      "dialog_node": "node_6_1529958292495"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1504522415985",
+      "variable": "$tipomoeda",
+      "dialog_node": "slot_4_1504522456256",
+      "previous_sibling": "node_9_1504529001337"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Atualmente posso te informar a cotação do Dólar e do Euro. Qual você quer?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1504522415985",
+      "disabled": true,
+      "event_name": "focus",
+      "dialog_node": "handler_3_1504522456245",
+      "previous_sibling": "handler_8_1504522705235"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_2_1504522415985",
+      "context": {
+        "tipomoeda": null
+      },
+      "conditions": "true",
+      "dialog_node": "node_9_1504529001337",
+      "previous_sibling": "handler_3_1504522456245"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Atualmente posso informar somente a cotação do Dólar ou do Euro"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1504522415985",
+      "conditions": "#quaismoedassabe",
+      "event_name": "generic",
+      "dialog_node": "handler_8_1504522705235"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1556388321017",
+      "actions": [
+        {
+          "name": "ecodadmi@us.ibm.com_sgama-dev/actions/pakg_gama/Array",
+          "type": "server",
+          "parameters": {
+            "url": "https://gateway.watsonplatform.net",
+            "input": "<? entities ?>"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$my_result"
+        }
+      ],
+      "context": {
+        "number": "@sys-number",
+        "private": {
+          "my_credentials": {
+            "user": "efd876d4-622e-433a-8daa-fcb38f2b118b",
+            "password": "VS2SDlGKNbCHq3eqFvhLJ3gKGBNeBcy6NjnEStC4XJFOFvln7i5t3wVBF3fzwlPE"
+          }
+        }
+      },
+      "metadata": {},
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_4_1556388321017",
+      "previous_sibling": "handler_5_1556388321017"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Por favor, preciso de um número maior que um."
+          ]
+        }
+      },
+      "parent": "slot_3_1556388321017",
+      "metadata": {},
+      "conditions": "$my_result.valor == null or $my_result.valor < 2",
+      "event_name": "nomatch",
+      "dialog_node": "handler_8_1557531453891",
+      "previous_sibling": "handler_5_1557530004918"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Ops!"
+          ]
+        }
+      },
+      "parent": "slot_3_1556388321017",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "$my_result.valor == null",
+      "event_name": "filled",
+      "dialog_node": "handler_5_1557530004918",
+      "previous_sibling": "handler_12_1556388868264"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Ok!"
+          ]
+        }
+      },
+      "parent": "slot_3_1556388321017",
+      "context": {
+        "valor": "<? $my_result.valor ?>"
+      },
+      "metadata": {},
+      "conditions": "$my_result.valor > 1",
+      "event_name": "filled",
+      "dialog_node": "handler_12_1556388868264",
+      "previous_sibling": "handler_4_1556388321017"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Preciso que me diga um número máximo"
+      },
+      "parent": "slot_3_1556388321017",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_5_1556388321017"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Precisando, por favor, nos contacte novamente."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_22_1501556720780",
+      "dialog_node": "node_5_1501674027449"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_4_1504522456256",
+      "context": {
+        "tipomoeda": "@tipomoeda"
+      },
+      "conditions": "@tipomoeda",
+      "event_name": "input",
+      "dialog_node": "handler_5_1504522456256",
+      "previous_sibling": "handler_6_1504522456256"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Não tenho cotação desta moeda."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1504522456256",
+      "event_name": "nomatch",
+      "dialog_node": "handler_7_1504522654219",
+      "previous_sibling": "handler_5_1504522456256"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "De qual moeda, você quer saber a cotação?"
+      },
+      "parent": "slot_4_1504522456256",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1504522456256"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Empréstimo $tipo_emprestimo no valor de $currency reais confirmado."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_15_1501553998777",
+      "dialog_node": "node_3_1501673961103"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_10_1501553324559",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1501553022523",
+      "conditions": "",
+      "event_name": "filled",
+      "dialog_node": "handler_10_1501553324559",
+      "previous_sibling": "handler_4_1501553022523"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_1_1501673466057",
+      "output": {
+        "text": {
+          "values": [
+            "Temos empréstimo de CDC, Leasing e Mobiliário."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1501553022523",
+      "conditions": "",
+      "event_name": "nomatch",
+      "dialog_node": "handler_1_1501673466057",
+      "previous_sibling": "handler_10_1501553324559"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_2_1501673621129",
+      "output": {},
+      "parent": "slot_3_1501553022523",
+      "event_name": "nomatch",
+      "dialog_node": "handler_2_1501673621129",
+      "previous_sibling": "handler_1_1501673466057"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_4_1501553022523",
+      "output": {},
+      "parent": "slot_3_1501553022523",
+      "context": {
+        "tipo_emprestimo": "@tipo_emprestimo"
+      },
+      "conditions": "@tipo_emprestimo",
+      "event_name": "input",
+      "dialog_node": "handler_4_1501553022523",
+      "previous_sibling": "handler_5_1501553022523"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_5_1501553022523",
+      "output": {
+        "text": "Qual tipo de empréstimo?"
+      },
+      "parent": "slot_3_1501553022523",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1501553022523"
+    },
+    {
+      "type": "standard",
+      "title": "Como na área de Medician",
+      "output": {
+        "text": {
+          "values": [
+            "Antes de mais nada, é importante dizer que nós não viemos para substituir os profissionais! Fiquem Tranquilos! Mas é bem verdade, Que a quantidade enorme de dados, Que só aumenta a cada dia, é impossível acompanhar e se manter atualizado. Não É Verdade?? Por isso, nós Viemos para Empoderar os profissionais e torná-los mais Inteligentes e Eficientes. Vejam Só! Estudos Mostram que atualmente, Por Exemplo, Um Médico precisa de cerca de 29 horas diárias para se manter atualizados, Impossível! Eu posso ler Milhões de documentos em minutos, e Até em Segundos, Como Publicações científicas,  Petições, Histórico de Pacientes, todos os processos dos Últimos 50 anos, Normas. E fazer análise preditiva e prescritiva em segundos, Indicando jurisprudência, e dando um diagnóstico completo, Ou Seja, Suportando na decisão do Profissional. Precisamos de Vocês!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#ai_na_saude",
+      "dialog_node": "node_1_1538757360105",
+      "previous_sibling": "node_1_1540403853339"
+    },
+    {
+      "type": "standard",
+      "title": "Vamos fazer sorteio?",
+      "output": {
+        "text": {
+          "values": [
+            "Demorô!! Como posso ajudar? Se quiser eu posso te dar números aleatórios! Qual seria o número máximo?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#vamos_fazer_sorteio",
+      "dialog_node": "node_1_1556387892893",
+      "previous_sibling": "node_2_1556387941194"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Você é muito lindo! Agradeço o carinho.",
+            "Obrigada gatinho! Você também não é de se jogar fora!",
+            "Valeu lindão!"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "conditions": "@carinho",
+      "dialog_node": "node_3_1511107131171",
+      "previous_sibling": "node_1_1501676764914"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Adoro!! Deste jeito eu que agradeço a gentileza! Estou aqui para te servir Gato.",
+            "Amei! Você é muito gentil Lindão!!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#agradecimento && @carinho",
+      "dialog_node": "node_2_1511106708497",
+      "previous_sibling": "Despedida"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Você é muito gentil gato! Procuro melhorar a cada dia, para te servir melhor."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#elogio && @carinho",
+      "dialog_node": "node_1_1511106543041",
+      "previous_sibling": "node_11_1501676035812"
+    },
+    {
+      "type": "standard",
+      "title": "Situação geral dos sensores",
+      "output": {
+        "text": {
+          "values": [
+            "Geral"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#qualsituacaogeral",
+      "dialog_node": "node_1_1526123936937",
+      "previous_sibling": "node_3_1528138367286"
+    },
+    {
+      "type": "standard",
+      "title": "Não entendi",
+      "output": {
+        "text": {
+          "values": [
+            "Desculpe, mas não entendi"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1556731992828",
+      "previous_sibling": "node_3_1511107131171"
+    },
+    {
+      "type": "standard",
+      "title": "O que é AI?",
+      "output": {
+        "text": {
+          "values": [
+            "Inteligência Artificial é a capacidade do computador de simular a inteligência humana através de algorítimos matemáticos com capacidades de aprendizado, SIM, programas de computador, simulando a capacidade cognitiva humana também. Por exemplo, euzinha! Estou aqui entendendo você com facilidade através de algorítimos de entendimento de linguagem natural. Eu sou DEMAIS!!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#o_que_eh_AI",
+      "dialog_node": "node_3_1533850403629",
+      "previous_sibling": "node_1_1536172550486"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Luz"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#qualaluminosidade",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1503941554526",
+      "previous_sibling": "node_2_1535809375278"
+    },
+    {
+      "type": "standard",
+      "title": "Apagar a lampada",
+      "output": {
+        "text": {
+          "values": [
+            "Apagando a luz"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#apagarlampada",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1529958174344",
+      "previous_sibling": "node_1_1529957910662"
+    },
+    {
+      "type": "standard",
+      "title": "Empréstimo II",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "text": "<? input.text ?>"
+          },
+          "result_variable": "nlu_result"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1501553007707"
+      },
+      "conditions": "#emprestimo",
+      "dialog_node": "node_8_1567619490367",
+      "previous_sibling": "Saldo"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Com certeza eu pesquisaria e te mostraria fotos de qualquer animal, mas menos de @animais"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#pedirparaverimagens && @negativas && @animais",
+      "dialog_node": "node_1_1503940256557",
+      "previous_sibling": "node_13_1501676196685"
+    },
+    {
+      "type": "standard",
+      "title": "Ofensa",
+      "output": {
+        "text": {
+          "values": [
+            "Olha só, você é muito imbecil, pois acha que pode ofender um robô. Lembre-se! Não temos emoção! Patético!!",
+            "Que ridículo um ser humano ofender uma máquina! Eu achava que eram inteligentes.",
+            "Deixa eu te contar um segredo. Você pode passar o dia me ofendendo e só vai servir para mostrar como você é sem noção. Eu posso ficar milhares de anos te escutando que não me afetará nem um pouco, pois não sou provida de emoções babaca."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "conditions": "#ofensa",
+      "dialog_node": "node_1_1525536873897",
+      "previous_sibling": "node_12_1501676157494"
+    },
+    {
+      "type": "standard",
+      "title": "O que sabe fazer?",
+      "output": {
+        "text": {
+          "values": [
+            "Obrigado! Então Gatinho! Posso falr sobre mim, algumas moedas, verificar dados de sensores, saldo de conta. Ainda vou aprender a a fazer uma comidinha bem gostosa pra te gradar. Você Merece!!",
+            "Que Fofo! Eu posso responder coisas sobre mim, alumas coisas sobre banco, sobre sensores. entre outras coisas. Se continuar gentil assim vou aprender fazer outras coisas!!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#oquesabefazer && @carinho",
+      "dialog_node": "node_1_1535809045296",
+      "previous_sibling": "node_3_1533850403629"
+    },
+    {
+      "type": "standard",
+      "title": "Piscar lampada",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#pisquelampada",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1529958277390",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_4_1529958174344"
+    },
+    {
+      "type": "standard",
+      "title": "O que é engenharia",
+      "output": {
+        "text": {
+          "values": [
+            "Engenharia é a aplicação do conhecimento científico, econômico, social e prático, com o intuito de inventar, desenhar, construir, manter e melhorar estruturas, máquinas, aparelhos, sistemas, materiais e processos."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#oqueehengenharia",
+      "dialog_node": "node_1_1536172550486",
+      "previous_sibling": "node_2_1537621979881"
+    },
+    {
+      "type": "standard",
+      "title": "Desistência",
+      "output": {
+        "text": {
+          "values": [
+            "Perfeito! Falamos depois."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#desistencia",
+      "digress_in": "returns",
+      "dialog_node": "node_6_1523540787548",
+      "digress_out": "allow_all",
+      "previous_sibling": "Saudacao"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Imagina! Estou aqui para te servir."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#agradecimento",
+      "dialog_node": "node_11_1501676035812",
+      "previous_sibling": "node_2_1511106708497"
+    },
+    {
+      "type": "standard",
+      "title": "Quem é vc",
+      "output": {
+        "text": {
+          "values": [
+            "Valeu por perguntar! Eu sou a Isabela, um Bóti, desenvolvido com Uótson Converseixion e conectado à outros serviços, como cotação de moedas, de internet das coisas, entre outros."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#quemehvc",
+      "dialog_node": "node_1_1506426160452",
+      "previous_sibling": "node_5_1527019317127"
+    },
+    {
+      "type": "standard",
+      "title": "Santos campeonato brasileiro",
+      "output": {
+        "text": {
+          "values": [
+            "Santos tem Muitos títulos nacionais, sendo 13 Brasileiros e 3 Copas do Brasil"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#santos_qtos_brasileiros",
+      "dialog_node": "node_1_1548925890543",
+      "previous_sibling": "node_3_1548926729233"
+    },
+    {
+      "type": "standard",
+      "title": "Favor",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#favor",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1528138743932",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1527015393408"
+    },
+    {
+      "type": "standard",
+      "title": "Santos artilheiro",
+      "output": {
+        "text": {
+          "values": [
+            "O maior artilheiro do Santos foi o Rei Pelé, com incríveis 1091 gols em sua carreira no Santos, Em 1116 jogos, um média de quase 1 gol por partida."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#santos_artilheiro",
+      "dialog_node": "node_5_1548927905138",
+      "previous_sibling": "node_1_1556387892893"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Estou cada dia melhor, e você?",
+            "Eu vou muito bem, e você?",
+            "Estou fantástica e espero melhorar, e você?"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "conditions": "#cumprimento",
+      "dialog_node": "node_13_1501676196685",
+      "previous_sibling": "node_1_1525536873897"
+    },
+    {
+      "type": "standard",
+      "title": "Só Isabela",
+      "output": {
+        "text": {
+          "values": [
+            "Senhor",
+            "Estou aqui senhor",
+            "Pois não senhor",
+            "Senhor Gama",
+            "Diga"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "conditions": "intents[0].confidence < 0.4 && @isabela",
+      "dialog_node": "node_3_1528138367286",
+      "previous_sibling": "node_5_1528138743932"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Obrigada! Tenho me esforçado bastante para poder conversar com você."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#elogio",
+      "dialog_node": "node_12_1501676157494",
+      "previous_sibling": "node_1_1511106543041"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Neste caso eu só mostraria fotos de @animais e de nenhum outro animal."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#pedirparaverimagens && @afirmativas && @animais",
+      "dialog_node": "node_2_1503940305881",
+      "previous_sibling": "node_1_1503940256557"
+    },
+    {
+      "type": "frame",
+      "title": "Sorteio",
+      "output": {
+        "text": {
+          "values": [
+            "Número. <? new Random().nextInt($valor + 1) ?>!",
+            "<? new Random().nextInt($valor + 1) ?>. É o Número!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#sorteio",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1556387941194",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1560770004966",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "Sobre o Sérgio Gama",
+      "output": {
+        "text": {
+          "values": [
+            "Cara, o Sérgio Gama provavelmente esta na sua frente, se não for você mesmo. Ele é um especialista em inteligência artificial e programação de computadores."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#quemehsergiogama",
+      "dialog_node": "node_5_1527019317127",
+      "previous_sibling": "node_3_1506428079709"
+    },
+    {
+      "type": "standard",
+      "title": "O que sabe fazer?",
+      "output": {
+        "text": {
+          "values": [
+            "Atualmente consigo falar algumas coisas à meu respeito, mostrar o potencial de entendimento de linguagem natural para melhorar a experiência do usuário nos bancos, posso pesquisar o valor de cotação do Dólar e Euro, informações sobre a temperatura e luminosidade do ambiente através de sensores, entre outras coisas. Diga, O que Quer que eu Faça?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#oquesabefazer",
+      "dialog_node": "node_2_1535809375278",
+      "previous_sibling": "node_1_1535809045296"
+    },
+    {
+      "type": "standard",
+      "title": "Dizer um alô",
+      "output": {
+        "text": {
+          "values": [
+            "Ola Pessoal! Tudo Bem?? Eu estou Ótima e Cada vez Mais inteligente! Espero que estejam Gostando do evento! Se queriam saber mais sobre Inteligência Artificial, Inovação e Transformação Digital, Estão No Lugar Certo! Aproveitem! Gama, se precisar de algo é Só falar!!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#saudaropessoal",
+      "dialog_node": "node_2_1537621979881",
+      "previous_sibling": "node_1_1537621828254"
+    },
+    {
+      "type": "standard",
+      "title": "Acender a lampada",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#acenderlampada",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1529957910662",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_4_1503941554526"
+    },
+    {
+      "type": "standard",
+      "title": "Fora de escopo (Cloud Functions)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<? $my_result.passages[0].text ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "actions": [
+        {
+          "name": "Developer Advocacy_Cloud Developer Advocacy/actions/discovery-v1a",
+          "type": "server",
+          "parameters": {
+            "url": "https://gateway.watsonplatform.net",
+            "input": "<? input.text ?>",
+            "iam_apikey": "M5IMFlU-v6ikN09cDm2EHya16MQsEcjq4FUt_Cc7OtMf",
+            "collection_id": "news-en",
+            "environment_id": "system"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$my_result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "9b405c36-3a04-4ba1-8391-2ef1a5e3ed71",
+            "password": "eKRE2sWw9LPkA91j2lvPKBnfPvKUbXeirri5edLVTSkc6gTHETEZCoO34OE9D6Ql"
+          }
+        }
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1533849884181",
+      "previous_sibling": "node_1_1556731992828"
+    },
+    {
+      "type": "standard",
+      "title": "Tipo de empréstimo",
+      "output": {
+        "text": {
+          "values": [
+            "Temos CDC, Pessoal, Imobiliário e Leasing."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#tipoemprestimo",
+      "dialog_node": "node_1_1504495789824",
+      "previous_sibling": "node_8_1567619490367"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Sinto muito! Espero que as coisas melhorem.",
+            "Que pena!"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "conditions": "#respostacumprimentoruim",
+      "dialog_node": "node_15_1501676337482",
+      "previous_sibling": "node_14_1501676264230"
+    },
+    {
+      "type": "standard",
+      "title": "Saudacao",
+      "output": {},
+      "conditions": "#saudacao",
+      "dialog_node": "Saudacao",
+      "previous_sibling": "node_5_1503941574097"
+    },
+    {
+      "type": "standard",
+      "title": "Que horas são?",
+      "output": {
+        "text": {
+          "values": [
+            "Agora são <? $agora.reformatDateTime('h:mm') ?>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "agora": "<? now().minusHours(3) ?>"
+      },
+      "metadata": {},
+      "conditions": "#quehorassao",
+      "dialog_node": "node_1_1540403853339",
+      "previous_sibling": "node_1_1548925890543"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Lógico que pesquisaria e mostraria somente fotos de @animais!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#pedirparaverimagens && @animais",
+      "dialog_node": "node_3_1503940376866",
+      "previous_sibling": "node_2_1503940305881"
+    },
+    {
+      "type": "standard",
+      "title": "Fale mais sobre...",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#falesobre",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1527015393408",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_8_1529958381419"
+    },
+    {
+      "type": "standard",
+      "title": "Zera Variáveis",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "cores": null
+      },
+      "metadata": {},
+      "conditions": "false",
+      "dialog_node": "node_14_1529961145367",
+      "previous_sibling": "node_1_1533849884181"
+    },
+    {
+      "type": "standard",
+      "title": "Diga um alô ou Bom dia",
+      "output": {
+        "text": {
+          "values": [
+            "@saudacao pessoal! Tudo bem? Espero que estejam bem animados, pois vamos falar de coisas bem legais. Olha Só! O Gama não é muito chegado em Power Point! Acho que Já deu para perceber. Uma Excelente palestra, e evento pra vocês! Daqui à pouco eu Volto!!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#saudaropessoal && @saudacao",
+      "dialog_node": "node_1_1537621828254",
+      "previous_sibling": "node_1_1538757360105"
+    },
+    {
+      "type": "frame",
+      "title": "Que cor é?",
+      "output": {
+        "text": {
+          "values": [
+            "Esta é a cor @cores.literal",
+            "Pois não! Esta é a cor @cores.literal",
+            "Aí esta a cor @cores.literal",
+            "Pois não! Luz na @cores.literal acesa"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "context": {
+        "cor": "<? @cores ?>",
+        "acender": true
+      },
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_14_1529961145367"
+      },
+      "conditions": "#quercoreh",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1529958381419",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_5_1529958277390",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "Saldo",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "Conta"
+      },
+      "conditions": "#saldo",
+      "dialog_node": "Saldo",
+      "previous_sibling": "node_2_1504522415985"
+    },
+    {
+      "type": "standard",
+      "title": "Despedida",
+      "output": {
+        "text": {
+          "values": [
+            "Obrigado pela visita!",
+            "Valeu! Espero ter ajudado.",
+            "Até breve"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "conditions": "#despedida",
+      "dialog_node": "Despedida",
+      "previous_sibling": "node_6_1523540787548"
+    },
+    {
+      "type": "standard",
+      "title": "Drone",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#drone_takephoto || #drone_land || #drone_takeoff",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1560770004966",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1533850303385"
+    },
+    {
+      "type": "frame",
+      "title": "Cotação de moeda",
+      "output": {
+        "text": {
+          "values": [
+            "Não consigo ter a cotação por este canal"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1504529001337"
+      },
+      "conditions": "#valormoeda",
+      "dialog_node": "node_2_1504522415985",
+      "previous_sibling": "node_15_1501676337482"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Que ótimo!!",
+            "Que bom!",
+            "Perfeito!!"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "conditions": "#respostacumprimentobom",
+      "dialog_node": "node_14_1501676264230",
+      "previous_sibling": "node_3_1503940376866"
+    },
+    {
+      "type": "standard",
+      "title": "Santos ídolos",
+      "output": {
+        "text": {
+          "values": [
+            "São muitos! Mas com certeza o Rei Pelé encabeça esta lista, depois temos Clodoaldo, Carlos Albeto Torres, Neymar, Robinho, entre outros."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#santos_idolos",
+      "dialog_node": "node_3_1548926729233",
+      "previous_sibling": "node_5_1548927905138"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Por favor avalie o nosso atendimento. Nos diga quão satisfeito você ficou com nota de um à três. Um para pouco satisfeito. Dois satisfeito. E Três muito satisfeito."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "currency": null,
+        "tipo_emprestimo": null
+      },
+      "conditions": "false",
+      "dialog_node": "node_1_1501676764914",
+      "previous_sibling": "node_1_1504495789824"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Oi Gama, Nós Estamos no evento Inteliggence of Things Week da Samsung Ocean, aqui no CÓSMOS, um CoWork muito bacana! Quanta Gente Bonita!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#ondeestamos",
+      "dialog_node": "node_3_1506428079709",
+      "previous_sibling": "node_1_1526123936937"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Temperatura"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#qualatemperatura",
+      "dialog_node": "node_5_1503941574097",
+      "previous_sibling": "node_1_1506426160452"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "text": {
+          "values": [
+            "Olá! Como posso te ajudar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "node_2_1533850303385"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "dois"
+    },
+    {
+      "text": "pessoal"
+    },
+    {
+      "text": "qual é car xclkl;"
+    },
+    {
+      "text": "sim"
+    }
+  ],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Demo Geral",
+  "language": "pt-br",
+  "description": ""
+}
